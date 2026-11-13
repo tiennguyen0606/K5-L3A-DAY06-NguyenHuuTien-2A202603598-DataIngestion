@@ -1,13 +1,14 @@
 {
   "rater": "author (Nguyen Huu Tien) — bias risk noted",
-  "selection_rule": "Coherence: same 10 page IDs 1,5,10,15,20,25,28,33,35,39 for A/B/C. Grounding: all 5 test questions. Metadata: 5 test x top-3. Filter: questions with non-null filter.",
+  "selection_rule": "Coherence: same 10 page IDs 1,5,10,15,20,25,28,33,35,39 for A500/B/C. Grounding: all 5 test questions. Metadata: 5 test x top-3. Filter: questions with non-null filter.",
+  "preprocessing": "normalize_text drops running headers (ECLECTIC SERIES / SIXTH READER), bare page numbers, soft hyphen line-breaks; keeps paragraph breaks.",
   "coherence": {
     "scale": "0=cut mid-idea, 1=partial, 2=self-contained",
     "positions": [1, 5, 10, 15, 20, 25, 28, 33, 35, 39],
     "scores": {
-      "strategy_A_fixed": {"labels": [1, 1, 1, 1, 1, 2, 2, 1, 1, 1], "mean": 1.2, "note": "Fixed 500-char windows often cut mid-sentence on dense instruction pages."},
-      "strategy_B_paragraph": {"labels": [2, 2, 2, 2, 2, 2, 2, 2, 2, 2], "mean": 2.0, "note": "Paragraph chunks usually keep a whole example or paragraph."},
-      "strategy_C_filtered": {"labels": [2, 2, 2, 2, 2, 2, 2, 2, 2, 2], "mean": 2.0, "note": "Same chunks as B; filter is query-time only."}
+      "strategy_A_fixed": {"labels": [1, 2, 1, 2, 2, 2, 2, 1, 1, 2], "mean": 1.6, "note": "Sentence-boundary snap reduced mid-sentence cuts vs naive fixed windows; still weaker on dense verse examples."},
+      "strategy_B_paragraph": {"labels": [2, 2, 2, 2, 2, 2, 2, 2, 2, 2], "mean": 2.0, "note": "Paragraph units keep examples intact; oversized paras use sentence windows."},
+      "strategy_C_filtered": {"labels": [2, 2, 2, 2, 2, 2, 2, 2, 2, 2], "mean": 2.0, "note": "Same chunks as B."}
     }
   },
   "metadata_usefulness": {
@@ -18,16 +19,33 @@
       "strategy_C_top3_obey_section": "5/5",
       "strategy_A_B": "N/A (no filter applied)"
     },
-    "usefulness_note": "section helps scope voice/gesture/selection queries; limitation: section is page-range heuristic, not publisher TOC labels, so boundary pages may be mislabeled."
+    "usefulness_note": "section scopes voice/gesture/selection; limitation: page-range heuristic, not publisher TOC."
   },
   "grounding_quality": {
     "scale": "0=no evidence, 1=partial, 2=enough to answer+cite",
     "test_questions": ["q16", "q17", "q18", "q19", "q20"],
     "scores": {
-      "strategy_A_fixed": {"labels": [2, 2, 1, 0, 0], "counts": {"0": 2, "1": 1, "2": 2}, "mean": 1.0},
-      "strategy_B_paragraph": {"labels": [2, 2, 2, 1, 1], "counts": {"0": 0, "1": 2, "2": 3}, "mean": 1.6},
-      "strategy_C_filtered": {"labels": [2, 2, 2, 1, 1], "counts": {"0": 0, "1": 2, "2": 3}, "mean": 1.6}
+      "strategy_A_fixed": {"labels": [1, 2, 1, 0, 0], "counts": {"0": 2, "1": 2, "2": 1}, "mean": 0.8},
+      "strategy_B_paragraph": {"labels": [2, 2, 2, 0, 1], "counts": {"0": 1, "1": 1, "2": 3}, "mean": 1.4},
+      "strategy_C_filtered": {"labels": [2, 2, 2, 0, 1], "counts": {"0": 1, "1": 1, "2": 3}, "mean": 1.4}
+    }
+  },
+  "error_root_cause": [
+    {
+      "question_id": "q19",
+      "split": "test",
+      "strategies": ["strategy_B_paragraph", "strategy_A_fixed"],
+      "symptom": "Hit@3 fails or top-1 is neighboring thunderstorm page (37) instead of Thomson bio evidence on page 38.",
+      "root_cause": "Semantic near-duplicate: 'After the Thunderstorm' body (p37) and author blurb (p38) share storm/seasons vocabulary; MiniLM ranks narrative prose above the short bibliographic sentence containing gold quote 'This extract is from The Seasons.' Chunking is not the main failure—embedding confuses adjacent literary context.",
+      "not_primary": "Not mainly chunk_size: A1000 still ranks p37 first; cleaning headers did not remove the gold sentence."
     },
-    "notes": "A misses/mislays q19–q20 (biographical/selection prose). B/C retrieve correct page in top-3 but Hit@1 often wrong sibling chunk — partial grounding."
-  }
+    {
+      "question_id": "q20",
+      "split": "test",
+      "strategies": ["strategy_B_paragraph", "strategy_A_fixed"],
+      "symptom": "Gold page 39 often rank-2; Hit@1 misses 'latter end of May' whitewashing date.",
+      "root_cause": "House-cleaning narrative spans p39–41 with repeated wash/furniture imagery; dense narrative distractors outrank the short date clause. Evidence exists in top-3 for B/C (partial grounding) but not always Hit@1.",
+      "not_primary": "Filter section=selection correctly keeps scope on C but cannot separate intra-section neighbors."
+    }
+  ]
 }

@@ -22,7 +22,10 @@ class MyEmbedder:
         self.model_name = model_name
         # Khởi tạo mô hình SentenceTransformer thực tế và tự động lấy số chiều (dimensions)
         self._model = SentenceTransformer(self.model_name)
-        self.dimensions = self._model.get_sentence_embedding_dimension()
+        if hasattr(self._model, "get_embedding_dimension"):
+            self.dimensions = self._model.get_embedding_dimension()
+        else:
+            self.dimensions = self._model.get_sentence_embedding_dimension()
 
     def embed_documents(self, texts: list[str]) -> list[list[float]]:
         """Return one vector per input text, in the same order."""
