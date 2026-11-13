@@ -1,0 +1,222 @@
+[
+  {
+    "id": "q01",
+    "type": "truc_tiep",
+    "split": "dev",
+    "question": "How is emphasis expressed when contrasting words that share part of their formation?",
+    "expected_answer": "By accenting the syllables in which they differ.",
+    "gold_source_id": "McGuffey_p40_80",
+    "gold_page": 2,
+    "evidence_quote": "the emphasis is expressed by ac centi ng the syllables in which they differ",
+    "filter": null
+  },
+  {
+    "id": "q02",
+    "type": "truc_tiep",
+    "split": "dev",
+    "question": "What is an emphatic pause and where may it be placed relative to an emphatic word?",
+    "expected_answer": "A short pause before or after, and sometimes both before and after, an emphatic word or phrase.",
+    "gold_source_id": "McGuffey_p40_80",
+    "gold_page": 4,
+    "evidence_quote": "A short pause is often made before or after, and some times both befo re and after, an emphatic word or phrase",
+    "filter": null
+  },
+  {
+    "id": "q03",
+    "type": "dien_dat_lai",
+    "split": "dev",
+    "question": "In reading verse, should inflection differ greatly from prose reading?",
+    "expected_answer": "No; inflections should be nearly the same as in reading prose.",
+    "gold_source_id": "McGuffey_p40_80",
+    "gold_page": 4,
+    "evidence_quote": "In reading verse, the inflections should be nearly the same as in reading prose",
+    "filter": null
+  },
+  {
+    "id": "q04",
+    "type": "truc_tiep",
+    "split": "dev",
+    "question": "What is the natural pitch of the voice?",
+    "expected_answer": "Its keynote or governing note; the pitch used in conversation and adopted most easily when reading or speaking.",
+    "gold_source_id": "McGuffey_p40_80",
+    "gold_page": 11,
+    "evidence_quote": "The natural pitch of the voice is its keynote, or governing note",
+    "filter": null
+  },
+  {
+    "id": "q05",
+    "type": "truc_tiep",
+    "split": "dev",
+    "question": "What is meant by the compass of the voice?",
+    "expected_answer": "Its range above and below the natural pitch/keynote.",
+    "gold_source_id": "McGuffey_p40_80",
+    "gold_page": 11,
+    "evidence_quote": "The compass of the voice is its range above and below this pitch",
+    "filter": null
+  },
+  {
+    "id": "q06",
+    "type": "dieu_kien",
+    "split": "dev",
+    "question": "How can a reader strengthen the voice and increase its compass?",
+    "expected_answer": "Repeat a short sentence from the lowest natural key upward note by note to the highest pitch, then reverse the process downward.",
+    "gold_source_id": "McGuffey_p40_80",
+    "gold_page": 11,
+    "evidence_quote": "To strengthen the voice and increase its compass, select a short sentence, repeat it several times",
+    "filter": {"section": "voice"}
+  },
+  {
+    "id": "q07",
+    "type": "truc_tiep",
+    "split": "dev",
+    "question": "What does quantity mean in reading and speaking?",
+    "expected_answer": "The length of time occupied in uttering a syllable or a word.",
+    "gold_source_id": "McGuffey_p40_80",
+    "gold_page": 14,
+    "evidence_quote": "Quantity , in reading and speaking, means the length of time occupied in uttering a syllable or a word",
+    "filter": null
+  },
+  {
+    "id": "q08",
+    "type": "truc_tiep",
+    "split": "dev",
+    "question": "How may quantity be classified?",
+    "expected_answer": "Long, Medium, or Short.",
+    "gold_source_id": "McGuffey_p40_80",
+    "gold_page": 14,
+    "evidence_quote": "Quantity may be classified as Long, Medium, or Short",
+    "filter": null
+  },
+  {
+    "id": "q09",
+    "type": "truc_tiep",
+    "split": "dev",
+    "question": "What is movement in reading and speaking?",
+    "expected_answer": "The rapidity with which the voice moves; it varies with the nature of the thought.",
+    "gold_source_id": "McGuffey_p40_80",
+    "gold_page": 16,
+    "evidence_quote": "Movement is the rapidity with which the voice moves in reading and speaking",
+    "filter": null
+  },
+  {
+    "id": "q10",
+    "type": "dieu_kien",
+    "split": "dev",
+    "question": "What common tendency do pupils have regarding reading speed, and what results from it?",
+    "expected_answer": "They tend to read too fast, leading to too high a key and unnatural delivery.",
+    "gold_source_id": "McGuffey_p40_80",
+    "gold_page": 16,
+    "evidence_quote": "With pupils generally, the tendency is to read too fast",
+    "filter": null
+  },
+  {
+    "id": "q11",
+    "type": "truc_tiep",
+    "split": "dev",
+    "question": "What is gesture according to the Sixth Reader?",
+    "expected_answer": "The part of the speaker's manner concerning attitude, carriage of the person, and movement of the limbs in delivery.",
+    "gold_source_id": "McGuffey_p40_80",
+    "gold_page": 20,
+    "evidence_quote": "Gesture is that part of the speaker's manner which per tai ns to his attitude",
+    "filter": {"section": "gesture"}
+  },
+  {
+    "id": "q12",
+    "type": "truc_tiep",
+    "split": "dev",
+    "question": "What is the first general direction given to a speaker about posture?",
+    "expected_answer": "Stand erect and firm in a posture that expands the chest and allows free respiration and utterance.",
+    "gold_source_id": "McGuffey_p40_80",
+    "gold_page": 20,
+    "evidence_quote": "he should stand erect and firm",
+    "filter": null
+  },
+  {
+    "id": "q13",
+    "type": "dien_dat_lai",
+    "split": "dev",
+    "question": "How should words be delivered from the lips according to the articulation comparison?",
+    "expected_answer": "Like beautiful coins newly issued from the mint: distinct, finished, in due succession and weight.",
+    "gold_source_id": "McGuffey_p40_80",
+    "gold_page": 23,
+    "evidence_quote": "be delivered out from the lips, as beautiful coins, newly issued from the mint",
+    "filter": null
+  },
+  {
+    "id": "q14",
+    "type": "dieu_kien",
+    "split": "dev",
+    "question": "Why does the text prefer that a girl become a first-rate reader rather than a first-rate pianoforte performer?",
+    "expected_answer": "Perfect reading would give more pleasure; the voice of eloquence is as sweet as song.",
+    "gold_source_id": "McGuffey_p40_80",
+    "gold_page": 24,
+    "evidence_quote": "It is better that a girl should return from school a first -rate reader, than a first-rate performer on the pianoforte",
+    "filter": null
+  },
+  {
+    "id": "q15",
+    "type": "truc_tiep",
+    "split": "dev",
+    "question": "What fault of the Duke of Newcastle is highlighted in the anecdote?",
+    "expected_answer": "He was profuse of promises and prided himself on anticipating petitioners' wants before they spoke.",
+    "gold_source_id": "McGuffey_p40_80",
+    "gold_page": 28,
+    "evidence_quote": "remarkable for being profuse of his promises on all occasions",
+    "filter": {"section": "selection"}
+  },
+  {
+    "id": "q16",
+    "type": "truc_tiep",
+    "split": "test",
+    "question": "What poem praises the needle directed by beauty and art?",
+    "expected_answer": "The Needle; it contrasts fashionable accomplishments with skillful needlework at home.",
+    "gold_source_id": "McGuffey_p40_80",
+    "gold_page": 33,
+    "evidence_quote": "The bright little needle, the swift-flying needle",
+    "filter": null
+  },
+  {
+    "id": "q17",
+    "type": "truc_tiep",
+    "split": "test",
+    "question": "Where was Edward Everett born, and at what age did he graduate from Harvard with highest honors?",
+    "expected_answer": "Born at Dorchester, Mass.; graduated at age seventeen.",
+    "gold_source_id": "McGuffey_p40_80",
+    "gold_page": 34,
+    "evidence_quote": "He was born at Dorchester, Mass., now a part of Boston, and graduated from Harvard College with the highest honors of his class, at the age of seventeen",
+    "filter": {"section": "selection"}
+  },
+  {
+    "id": "q18",
+    "type": "dieu_kien",
+    "split": "test",
+    "question": "After the thunderstorm scene, what alone could still be heard in the dead silence?",
+    "expected_answer": "The plash of the agitated lake against the black rocks.",
+    "gold_source_id": "McGuffey_p40_80",
+    "gold_page": 37,
+    "evidence_quote": "Nothing was heard save the plash of the agitated lake",
+    "filter": null
+  },
+  {
+    "id": "q19",
+    "type": "truc_tiep",
+    "split": "test",
+    "question": "Who wrote After the Thunderstorm, and which longer poem is the extract from?",
+    "expected_answer": "James Thomson; from The Seasons.",
+    "gold_source_id": "McGuffey_p40_80",
+    "gold_page": 38,
+    "evidence_quote": "This extract is from \"The Seasons.\"",
+    "filter": null
+  },
+  {
+    "id": "q20",
+    "type": "truc_tiep",
+    "split": "test",
+    "question": "When is house cleaning / whitewashing generally fixed upon, according to Hopkinson?",
+    "expected_answer": "The latter end of May, though a lady may claim the privilege any season.",
+    "gold_source_id": "McGuffey_p40_80",
+    "gold_page": 39,
+    "evidence_quote": "the latter end of May is generally fixed upon for the purpose",
+    "filter": {"section": "selection"}
+  }
+]

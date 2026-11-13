@@ -1,0 +1,21 @@
+{
+  "source_id": "McGuffey_p40_80",
+  "title": "McGuffey's Sixth Eclectic Reader (pages 40–80 of Project Gutenberg PDF #16751)",
+  "source_path_or_url": "starter/data/McGuffey_p40_80.pdf",
+  "original_source": "https://www.gutenberg.org/ebooks/16751",
+  "license_or_permission": "Public domain (USA) — Project Gutenberg License",
+  "accessed_at": "2026-11-13",
+  "page_count_physical": 41,
+  "content_pages_counted": 39,
+  "page_counting_rule": "Keep cut PDF pages 1–41 (= original Gutenberg PDF pages 40–80). Count a page if extractable text length > 0 after strip; exclude blank pages 27 and 30 (2 blank).",
+  "filter_field": {
+    "name": "section",
+    "values": ["emphasis_verse", "voice", "gesture", "selection"],
+    "mapping": {
+      "1-10": "emphasis_verse",
+      "11-19": "voice",
+      "20-27": "gesture",
+      "28-41": "selection"
+    }
+  }
+}

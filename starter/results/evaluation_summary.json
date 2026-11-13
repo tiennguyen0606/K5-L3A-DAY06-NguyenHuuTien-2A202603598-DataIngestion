@@ -1,0 +1,2558 @@
+{
+  "strategy_A_fixed": {
+    "summary": {
+      "total_queries": 20,
+      "overall": {
+        "n": 20,
+        "hit_1": "16/20",
+        "hit_3": "17/20",
+        "hit_1_rate": 0.8,
+        "hit_3_rate": 0.85
+      },
+      "by_split": {
+        "dev": {
+          "n": 15,
+          "hit_1": "14/15",
+          "hit_3": "14/15",
+          "hit_1_rate": 0.9333333333333333,
+          "hit_3_rate": 0.9333333333333333
+        },
+        "test": {
+          "n": 5,
+          "hit_1": "2/5",
+          "hit_3": "3/5",
+          "hit_1_rate": 0.4,
+          "hit_3_rate": 0.6
+        }
+      },
+      "hit_1_rate": 0.8,
+      "hit_3_rate": 0.85
+    },
+    "traces": [
+      {
+        "question_id": "q01",
+        "split": "dev",
+        "hit_@1": false,
+        "hit_@3": false,
+        "hits": [
+          {
+            "chunk_id": "McGuffey_p40_80_p3_fixed_1",
+            "text": " it is desired to give to a phrase great force of expression, each\nword, and even the parts of a compound word, are independently\nemphasized.\nEXAMPLES.\n1. Cassius . Must I endure all this?\nBrutus . All this!--Ay,-- more. Fret, till your proud--heart--break .\n2. What! weep you when you but behold\nOur Caesar's vesture wounded? Look ye here,\nHere is himself, marred, as you see, by traitors .\n3. There was a time, my fellow-citizens, when the Lacedaemonians\nwere sovereign masters, both by sea and by ",
+            "page": 3,
+            "metadata": {
+              "page": 3,
+              "section": "emphasis_verse",
+              "has_no_text": false
+            },
+            "score": 0.5938183777115795
+          },
+          {
+            "chunk_id": "McGuffey_p40_80_p6_fixed_3",
+            "text": "e\npreserved.\nIn the following examples, the words and syllables which are\nimproperly accented or emphasized in the poetry, are",
+            "page": 6,
+            "metadata": {
+              "page": 6,
+              "section": "emphasis_verse",
+              "has_no_text": false
+            },
+            "score": 0.47331160147855367
+          },
+          {
+            "chunk_id": "McGuffey_p40_80_p6_fixed_1",
+            "text": " same accent, and every\nword the same emphasis as in prose; and whenever the melody or music\nof the verse would lead to an incorrect accent or emphasis, this must be\ndisregarded.\nIf a poet has made his verse deficient in melody, this must not be\nremedied by the reader, at the expense of sense or the established rules of\naccent and quantity. Take the following:\nEXAMPLE.\nO'er shields, and helms, and helme'd heads he rode,\nOf thrones, and mighty Seraphim pro strate\nAccording to the metrical accent,",
+            "page": 6,
+            "metadata": {
+              "page": 6,
+              "section": "emphasis_verse",
+              "has_no_text": false
+            },
+            "score": 0.46253934502601957
+          }
+        ]
+      },
+      {
+        "question_id": "q02",
+        "split": "dev",
+        "hit_@1": true,
+        "hit_@3": true,
+        "hits": [
+          {
+            "chunk_id": "McGuffey_p40_80_p4_fixed_0",
+            "text": "SIXTH READER. 39\nEMPHATIC PAUSE.\nA short pause is often made before or after, and some times both befo re\nand after, an emphatic word or phrase,--thus very much increasing the\nemphatic expression of the thought.\nEXAMPLES.\n1. May one be pardoned, and retain --the offense?\nIn the corrupted currents of this world,\nOffense's gilded hand may shove by-- justice ;\nAnd oft 'tis seen, the wicked prize itself\nBuys out the law: but 't is not so-- above :\nThere--is no shuffling: there --the action lies\nIn i",
+            "page": 4,
+            "metadata": {
+              "page": 4,
+              "section": "emphasis_verse",
+              "has_no_text": false
+            },
+            "score": 0.7005442589683613
+          },
+          {
+            "chunk_id": "McGuffey_p40_80_p8_fixed_2",
+            "text": "naturally coincides\nwith the pause re quired by the sense. The caesura, though generally\nplaced near the middle, may be placed at other intervals.\nThere are sometimes, also, two additional pauses in each line, called\ndemi-caesuras.\nThe caesura is marked (||), and the demi-caesura thus, (|), in the\nexamples given.\nThere should be a marked accent upon the long syllable next preceding\nthe caesura, and a slighter one upon that next before each of the demi-\ncaesuras. When made too prominent, these pa",
+            "page": 8,
+            "metadata": {
+              "page": 8,
+              "section": "emphasis_verse",
+              "has_no_text": false
+            },
+            "score": 0.49046024680137634
+          },
+          {
+            "chunk_id": "McGuffey_p40_80_p8_fixed_1",
+            "text": "t will scarcely be noticed.\nPOETIC PAUSES.\nIn order to make the measure of poetry perceptible to the ear, there\nshould generally be a slight pause at the end of each line, even where the\nsense does not require it.\nThere is, also, in almost every line of poetry, a pause at or near its\nmiddle, which is called the caesura .\nThis should, however, never be so placed as to injure the sense of the\npassage. It is indeed reckoned a great beauty, where it naturally coincides\nwith the pause re quired by th",
+            "page": 8,
+            "metadata": {
+              "page": 8,
+              "section": "emphasis_verse",
+              "has_no_text": false
+            },
+            "score": 0.48620375908635705
+          }
+        ]
+      },
+      {
+        "question_id": "q03",
+        "split": "dev",
+        "hit_@1": true,
+        "hit_@3": true,
+        "hits": [
+          {
+            "chunk_id": "McGuffey_p40_80_p4_fixed_2",
+            "text": "s Lyre, and thus decreed,\nBe thou a bruised --but not a broken --reed.\nIV. INSTRUCTIONS FOR READING VERSE.\nINFLECTIONS.\nIn reading verse, the inflections should be nearly the same as in reading\nprose; the chief difference is, that in poetry, the monotone and rising\ninflection are more fre quently used than in prose.",
+            "page": 4,
+            "metadata": {
+              "page": 4,
+              "section": "emphasis_verse",
+              "has_no_text": false
+            },
+            "score": 0.6990108935551215
+          },
+          {
+            "chunk_id": "McGuffey_p40_80_p6_fixed_1",
+            "text": " same accent, and every\nword the same emphasis as in prose; and whenever the melody or music\nof the verse would lead to an incorrect accent or emphasis, this must be\ndisregarded.\nIf a poet has made his verse deficient in melody, this must not be\nremedied by the reader, at the expense of sense or the established rules of\naccent and quantity. Take the following:\nEXAMPLE.\nO'er shields, and helms, and helme'd heads he rode,\nOf thrones, and mighty Seraphim pro strate\nAccording to the metrical accent,",
+            "page": 6,
+            "metadata": {
+              "page": 6,
+              "section": "emphasis_verse",
+              "has_no_text": false
+            },
+            "score": 0.5219155990506551
+          },
+          {
+            "chunk_id": "McGuffey_p40_80_p2_fixed_2",
+            "text": " first three\nfollowing examples, the inflection is changed from the rising to the\nfalling inflec tion; in the last three, it is changed from the falling to the\nrising, by the influence of emphasis.\nEXAMPLES.\n1. If we have no regard for religion in youth' , we ought to have respect\nfor it in age.\n2. If we have no regard for our own' character, we ought to regard the\ncharacter of others .",
+            "page": 2,
+            "metadata": {
+              "page": 2,
+              "section": "emphasis_verse",
+              "has_no_text": false
+            },
+            "score": 0.5163773606048442
+          }
+        ]
+      },
+      {
+        "question_id": "q04",
+        "split": "dev",
+        "hit_@1": true,
+        "hit_@3": true,
+        "hits": [
+          {
+            "chunk_id": "McGuffey_p40_80_p11_fixed_0",
+            "text": "46 ECLECTIC SERIES.\nV. THE VOICE.\nPITCH AND COMPASS.\nThe natural pitch of the voice is its keynote, or governing note. It is\nthat on which the voice usually dwells, and to which it most frequently\nreturns when wearied. It is also the pitch used in conversation, and the\none which a reader or speaker naturally adopts--when he reads or speaks--\nmost easily and agreeably.\nThe compass of the voice is its range above and below this pitch. To\navoid monotony in reading or speaking, the voice should rise",
+            "page": 11,
+            "metadata": {
+              "page": 11,
+              "section": "voice",
+              "has_no_text": false
+            },
+            "score": 0.7186075495428665
+          },
+          {
+            "chunk_id": "McGuffey_p40_80_p11_fixed_2",
+            "text": "nd practice on that key,\nthen another, and so on, until the highest pitch of the voice has been\nreached. Next, reverse the process, until the lowest pitch has been\nreached.\nEXAMPLES IN PITCH\nHigh Pitch.\nNOTE.--Be careful to distinguish pitch from power in the following\nexercise. Speaking in the open air, at the very top of the voice, is an\nexercise admirably adapted to strengthen the voice and give it compass,\nand should be frequently practiced.\n 1. Charge'! Chester\" charge'! On'! Stanley, on'!\n",
+            "page": 11,
+            "metadata": {
+              "page": 11,
+              "section": "voice",
+              "has_no_text": false
+            },
+            "score": 0.5442768010928163
+          },
+          {
+            "chunk_id": "McGuffey_p40_80_p14_fixed_3",
+            "text": "the\nvoice as possible.\nIt is this artificial rotundity which, in connection with a distinct\narticulation, enables one who speaks in the open air, or in a very large\napartment, to send his voice to the most distant point. It is a certain degree\nof this quality, which distinguishes declamatory or public speaking or\nreading from private conversation, and no one can accomplish much, as a\npublic speaker, without cultivating it. It must be carefully distinguished\nfrom the \"high tone,\" which is an elev",
+            "page": 14,
+            "metadata": {
+              "page": 14,
+              "section": "voice",
+              "has_no_text": false
+            },
+            "score": 0.5317530035972595
+          }
+        ]
+      },
+      {
+        "question_id": "q05",
+        "split": "dev",
+        "hit_@1": true,
+        "hit_@3": true,
+        "hits": [
+          {
+            "chunk_id": "McGuffey_p40_80_p11_fixed_0",
+            "text": "46 ECLECTIC SERIES.\nV. THE VOICE.\nPITCH AND COMPASS.\nThe natural pitch of the voice is its keynote, or governing note. It is\nthat on which the voice usually dwells, and to which it most frequently\nreturns when wearied. It is also the pitch used in conversation, and the\none which a reader or speaker naturally adopts--when he reads or speaks--\nmost easily and agreeably.\nThe compass of the voice is its range above and below this pitch. To\navoid monotony in reading or speaking, the voice should rise",
+            "page": 11,
+            "metadata": {
+              "page": 11,
+              "section": "voice",
+              "has_no_text": false
+            },
+            "score": 0.6552331036607162
+          },
+          {
+            "chunk_id": "McGuffey_p40_80_p11_fixed_1",
+            "text": "tony in reading or speaking, the voice should rise above or fall\nbelow this keynote, but always with reference to the sense or character of\nthat which is read or spoken. The proper natural pitch is that above and\nbelow which there is most room for variation.\nTo strengthen the voice and increase its compass, select a short\nsentence, repeat it several times in succession in as low a key as the voice\ncan sound naturally; then rise one note higher, and practice on that key,\nthen another, and so on, ",
+            "page": 11,
+            "metadata": {
+              "page": 11,
+              "section": "voice",
+              "has_no_text": false
+            },
+            "score": 0.5149082405783155
+          },
+          {
+            "chunk_id": "McGuffey_p40_80_p14_fixed_3",
+            "text": "the\nvoice as possible.\nIt is this artificial rotundity which, in connection with a distinct\narticulation, enables one who speaks in the open air, or in a very large\napartment, to send his voice to the most distant point. It is a certain degree\nof this quality, which distinguishes declamatory or public speaking or\nreading from private conversation, and no one can accomplish much, as a\npublic speaker, without cultivating it. It must be carefully distinguished\nfrom the \"high tone,\" which is an elev",
+            "page": 14,
+            "metadata": {
+              "page": 14,
+              "section": "voice",
+              "has_no_text": false
+            },
+            "score": 0.44445164336120047
+          }
+        ]
+      },
+      {
+        "question_id": "q06",
+        "split": "dev",
+        "hit_@1": true,
+        "hit_@3": true,
+        "hits": [
+          {
+            "chunk_id": "McGuffey_p40_80_p11_fixed_1",
+            "text": "tony in reading or speaking, the voice should rise above or fall\nbelow this keynote, but always with reference to the sense or character of\nthat which is read or spoken. The proper natural pitch is that above and\nbelow which there is most room for variation.\nTo strengthen the voice and increase its compass, select a short\nsentence, repeat it several times in succession in as low a key as the voice\ncan sound naturally; then rise one note higher, and practice on that key,\nthen another, and so on, ",
+            "page": 11,
+            "metadata": {
+              "page": 11,
+              "section": "voice",
+              "has_no_text": false
+            },
+            "score": 0.620231591449295
+          },
+          {
+            "chunk_id": "McGuffey_p40_80_p11_fixed_0",
+            "text": "46 ECLECTIC SERIES.\nV. THE VOICE.\nPITCH AND COMPASS.\nThe natural pitch of the voice is its keynote, or governing note. It is\nthat on which the voice usually dwells, and to which it most frequently\nreturns when wearied. It is also the pitch used in conversation, and the\none which a reader or speaker naturally adopts--when he reads or speaks--\nmost easily and agreeably.\nThe compass of the voice is its range above and below this pitch. To\navoid monotony in reading or speaking, the voice should rise",
+            "page": 11,
+            "metadata": {
+              "page": 11,
+              "section": "voice",
+              "has_no_text": false
+            },
+            "score": 0.5821043079464471
+          },
+          {
+            "chunk_id": "McGuffey_p40_80_p16_fixed_2",
+            "text": "creased or diminished as good taste may\ndetermine. With pupils generally, the tendency is to read too fast. The\nresult is, reading or speaking in too high a key and an unnatural style of\ndelivery--both of which faults are difficult to be corrected when once\nformed. The kinds of movement are Slow, Moderate , and Quick .\nDIRECTIONS.--Read a selection as slowly us possible, without\ndrawling. Read it again and again, increasing the rate of movement\nat each reading, until it can be",
+            "page": 16,
+            "metadata": {
+              "page": 16,
+              "section": "voice",
+              "has_no_text": false
+            },
+            "score": 0.5407212875553876
+          }
+        ]
+      },
+      {
+        "question_id": "q07",
+        "split": "dev",
+        "hit_@1": true,
+        "hit_@3": true,
+        "hits": [
+          {
+            "chunk_id": "McGuffey_p40_80_p14_fixed_0",
+            "text": "SIXTH READER. 49\nQUANTITY AND QUALITY.\nQuantity , in reading and speaking, means the length of time occupied\nin uttering a syllable or a word. Sounds and syllables vary greatly in\nquantity. Some are long, some short, and others intermediate between\nthose which are long or short. Some sounds, also, may be prolonged or\nshortened in utterance to any desired extent. Quantity may be classified as\nLong, Medium, or Short .\nDIRECTIONS FOR PRACTICE ON LONG QUANTITY.--Select\nsome word of one syllable endi",
+            "page": 14,
+            "metadata": {
+              "page": 14,
+              "section": "voice",
+              "has_no_text": false
+            },
+            "score": 0.7718450521092167
+          },
+          {
+            "chunk_id": "McGuffey_p40_80_p14_fixed_1",
+            "text": "G QUANTITY.--Select\nsome word of one syllable ending with a long vocal or a subvocal sound;\npronounce it many times in succession, increasing the quantity at each\nrepetition, until you can dwell upon it any desired length of time, without\ndrawling, and in a natural tone.\nREMARK.--Practice in accordance with this direction will enable the\npupil to secure that fullness and roundness of voice which is exemplified\nin the hailing of a ship, \"ship aho--y;\" in the reply of the sailor, when, in\nthe roar",
+            "page": 14,
+            "metadata": {
+              "page": 14,
+              "section": "voice",
+              "has_no_text": false
+            },
+            "score": 0.46033285203571805
+          },
+          {
+            "chunk_id": "McGuffey_p40_80_p16_fixed_2",
+            "text": "creased or diminished as good taste may\ndetermine. With pupils generally, the tendency is to read too fast. The\nresult is, reading or speaking in too high a key and an unnatural style of\ndelivery--both of which faults are difficult to be corrected when once\nformed. The kinds of movement are Slow, Moderate , and Quick .\nDIRECTIONS.--Read a selection as slowly us possible, without\ndrawling. Read it again and again, increasing the rate of movement\nat each reading, until it can be",
+            "page": 16,
+            "metadata": {
+              "page": 16,
+              "section": "voice",
+              "has_no_text": false
+            },
+            "score": 0.4259032524314643
+          }
+        ]
+      },
+      {
+        "question_id": "q08",
+        "split": "dev",
+        "hit_@1": true,
+        "hit_@3": true,
+        "hits": [
+          {
+            "chunk_id": "McGuffey_p40_80_p14_fixed_0",
+            "text": "SIXTH READER. 49\nQUANTITY AND QUALITY.\nQuantity , in reading and speaking, means the length of time occupied\nin uttering a syllable or a word. Sounds and syllables vary greatly in\nquantity. Some are long, some short, and others intermediate between\nthose which are long or short. Some sounds, also, may be prolonged or\nshortened in utterance to any desired extent. Quantity may be classified as\nLong, Medium, or Short .\nDIRECTIONS FOR PRACTICE ON LONG QUANTITY.--Select\nsome word of one syllable endi",
+            "page": 14,
+            "metadata": {
+              "page": 14,
+              "section": "voice",
+              "has_no_text": false
+            },
+            "score": 0.5322297532695395
+          },
+          {
+            "chunk_id": "McGuffey_p40_80_p14_fixed_1",
+            "text": "G QUANTITY.--Select\nsome word of one syllable ending with a long vocal or a subvocal sound;\npronounce it many times in succession, increasing the quantity at each\nrepetition, until you can dwell upon it any desired length of time, without\ndrawling, and in a natural tone.\nREMARK.--Practice in accordance with this direction will enable the\npupil to secure that fullness and roundness of voice which is exemplified\nin the hailing of a ship, \"ship aho--y;\" in the reply of the sailor, when, in\nthe roar",
+            "page": 14,
+            "metadata": {
+              "page": 14,
+              "section": "voice",
+              "has_no_text": false
+            },
+            "score": 0.3144984134732737
+          },
+          {
+            "chunk_id": "McGuffey_p40_80_p40_fixed_1",
+            "text": "e may be\nseen the lumber of the kitchen, forming a dark and confused mass for the\nforeground of the picture; gridirons and frying pans, rusty shovels and\nbroken tongs, joint stools, and the fractured remains of rush-bottomed\nchairs. There a closet has dis gorged its bowel s--riveted plates and dishes,\nhalves of china bowls, cracked tumblers, broken wineglasses, phials of\nforgotten physic, papers of unknown powders, seeds and dried herbs, tops\nof teapots, and stoppers of departed decanters--from ",
+            "page": 40,
+            "metadata": {
+              "page": 40,
+              "section": "selection",
+              "has_no_text": false
+            },
+            "score": 0.24067939817905426
+          }
+        ]
+      },
+      {
+        "question_id": "q09",
+        "split": "dev",
+        "hit_@1": true,
+        "hit_@3": true,
+        "hits": [
+          {
+            "chunk_id": "McGuffey_p40_80_p16_fixed_1",
+            "text": " at liberty, like every other man, to use my own language; and\nthough, perhaps, I may have some ambition to please this gentleman, I\nshall not by myself under any restraint, nor very solicitously copy his\ndiction, or his mien, however matured by age or modeled by experience.\nMOVEMENT.\nMovement is the rapidity with which the voice moves in reading and\nspeaking. It varies with the nature of the thought or sentiment to be\nexpressed, and should be increased or diminished as good taste may\ndetermine.",
+            "page": 16,
+            "metadata": {
+              "page": 16,
+              "section": "voice",
+              "has_no_text": false
+            },
+            "score": 0.6733638048172045
+          },
+          {
+            "chunk_id": "McGuffey_p40_80_p16_fixed_2",
+            "text": "creased or diminished as good taste may\ndetermine. With pupils generally, the tendency is to read too fast. The\nresult is, reading or speaking in too high a key and an unnatural style of\ndelivery--both of which faults are difficult to be corrected when once\nformed. The kinds of movement are Slow, Moderate , and Quick .\nDIRECTIONS.--Read a selection as slowly us possible, without\ndrawling. Read it again and again, increasing the rate of movement\nat each reading, until it can be",
+            "page": 16,
+            "metadata": {
+              "page": 16,
+              "section": "voice",
+              "has_no_text": false
+            },
+            "score": 0.5470038866393778
+          },
+          {
+            "chunk_id": "McGuffey_p40_80_p20_fixed_0",
+            "text": "SIXTH READER. 55\nVI. GESTURE.\nGesture is that part of the speaker's manner which per tai ns to his\nattitude, to the use and carriage of his person, and the movement of his\nlimbs in delivery.\nEvery person, in beginning to speak, feels the natural embarrassment\nresulting from his new position. The nov elty of the situation destroys his\nself-possession, and, with the loss of that, he becomes awkward, his arms\nand hands hang clumsily, and now, for the first time, seem to him worse\nthan superfluous m",
+            "page": 20,
+            "metadata": {
+              "page": 20,
+              "section": "gesture",
+              "has_no_text": false
+            },
+            "score": 0.5232210003369769
+          }
+        ]
+      },
+      {
+        "question_id": "q10",
+        "split": "dev",
+        "hit_@1": true,
+        "hit_@3": true,
+        "hits": [
+          {
+            "chunk_id": "McGuffey_p40_80_p16_fixed_2",
+            "text": "creased or diminished as good taste may\ndetermine. With pupils generally, the tendency is to read too fast. The\nresult is, reading or speaking in too high a key and an unnatural style of\ndelivery--both of which faults are difficult to be corrected when once\nformed. The kinds of movement are Slow, Moderate , and Quick .\nDIRECTIONS.--Read a selection as slowly us possible, without\ndrawling. Read it again and again, increasing the rate of movement\nat each reading, until it can be",
+            "page": 16,
+            "metadata": {
+              "page": 16,
+              "section": "voice",
+              "has_no_text": false
+            },
+            "score": 0.7378908551996555
+          },
+          {
+            "chunk_id": "McGuffey_p40_80_p17_fixed_0",
+            "text": "52 ECLECTIC SERIES.\nread no faster without the utterance becoming indistinct. Reverse this\nprocess, reading more and more slowly at each repetition, until the\nslowest movement is obtained.\nSLOW MOVEMENT.\n1. Oh that those lips had language! Life has passed\nWith me but roughly, since I heard them last.\n2. A tremulous sigh from the gentle night wind\nThrough the forest leaves slowly is creeping,\nWhile stars up above, with their glittering eyes,\nKeep guard; for the army is sleeping.\n3. O Lord'! have ",
+            "page": 17,
+            "metadata": {
+              "page": 17,
+              "section": "voice",
+              "has_no_text": false
+            },
+            "score": 0.46324786324786404
+          },
+          {
+            "chunk_id": "McGuffey_p40_80_p14_fixed_0",
+            "text": "SIXTH READER. 49\nQUANTITY AND QUALITY.\nQuantity , in reading and speaking, means the length of time occupied\nin uttering a syllable or a word. Sounds and syllables vary greatly in\nquantity. Some are long, some short, and others intermediate between\nthose which are long or short. Some sounds, also, may be prolonged or\nshortened in utterance to any desired extent. Quantity may be classified as\nLong, Medium, or Short .\nDIRECTIONS FOR PRACTICE ON LONG QUANTITY.--Select\nsome word of one syllable endi",
+            "page": 14,
+            "metadata": {
+              "page": 14,
+              "section": "voice",
+              "has_no_text": false
+            },
+            "score": 0.37797726726260983
+          }
+        ]
+      },
+      {
+        "question_id": "q11",
+        "split": "dev",
+        "hit_@1": true,
+        "hit_@3": true,
+        "hits": [
+          {
+            "chunk_id": "McGuffey_p40_80_p20_fixed_0",
+            "text": "SIXTH READER. 55\nVI. GESTURE.\nGesture is that part of the speaker's manner which per tai ns to his\nattitude, to the use and carriage of his person, and the movement of his\nlimbs in delivery.\nEvery person, in beginning to speak, feels the natural embarrassment\nresulting from his new position. The nov elty of the situation destroys his\nself-possession, and, with the loss of that, he becomes awkward, his arms\nand hands hang clumsily, and now, for the first time, seem to him worse\nthan superfluous m",
+            "page": 20,
+            "metadata": {
+              "page": 20,
+              "section": "gesture",
+              "has_no_text": false
+            },
+            "score": 0.8440950168399521
+          },
+          {
+            "chunk_id": "McGuffey_p40_80_p22_fixed_1",
+            "text": "en a gesture is made with one arm only, the eye should be cast in\nthe direction of that arm; not at it, but over it.\nAll speakers employ, more or less, the motions of the head. In\nreference to that member, we make but one observation. Avoid the\ncontinuous shaking and bobbing of the head, which is so conspicuous in\nthe action of many ambitious public speakers.\nThe beauty and force of all gesture consist in its timely, judicious, and\nnatural employment, when it can serve to illustrate the meaning ",
+            "page": 22,
+            "metadata": {
+              "page": 22,
+              "section": "gesture",
+              "has_no_text": false
+            },
+            "score": 0.6353793740272522
+          },
+          {
+            "chunk_id": "McGuffey_p40_80_p22_fixed_0",
+            "text": "SIXTH READER. 57\nThird--As a general rule, let the hand be open, with the fingers slightly\ncurved. It then seems liberal, com municative, and candid; and, in some\ndegree, gives that expression to the style of delivery. Of course there are\npassages which require the clinched hand, the pointed finger, etc., etc.;\nbut these are used to give a particular expression.\nFourth --In the movements of the arm, study variety and the grace of\ncurved lines.\nWhen a gesture is made with one arm only, the eye sh",
+            "page": 22,
+            "metadata": {
+              "page": 22,
+              "section": "gesture",
+              "has_no_text": false
+            },
+            "score": 0.6151983141899109
+          }
+        ]
+      },
+      {
+        "question_id": "q12",
+        "split": "dev",
+        "hit_@1": true,
+        "hit_@3": true,
+        "hits": [
+          {
+            "chunk_id": "McGuffey_p40_80_p20_fixed_2",
+            "text": "hat should be given to the speaker is,\nthat he should stand erect and firm , and in that posture which gives an\nexpanded chest and full play to the organs of respiration and utterance.\n2d. Let the attitude be such that it can be shifted easily and gracefully .\nThe student will find, by trial, that no attitude is so favorable to this end\nas that in which the weight of the body is thrown upon one leg, leaving\nthe other free to be advanced or thrown back, as fatigue or the proper\naction of delivery",
+            "page": 20,
+            "metadata": {
+              "page": 20,
+              "section": "gesture",
+              "has_no_text": false
+            },
+            "score": 0.6100266757615412
+          },
+          {
+            "chunk_id": "McGuffey_p40_80_p20_fixed_3",
+            "text": " back, as fatigue or the proper\naction of delivery may require.\nThe student who has any regard to grace or elegance, will of course\navoid all the gross faults which are so com mon among public speakers,\nsuch as resting one foot upon a stool or bench, or throwing the body\nforward upon the support of the rostrum.\n3d. Next to attitude, come the movements of the person and limbs. In\nthese, two objects are to be observed, and, if possible, combined, viz.,\npropriety and grace . There is",
+            "page": 20,
+            "metadata": {
+              "page": 20,
+              "section": "gesture",
+              "has_no_text": false
+            },
+            "score": 0.5677871365674066
+          },
+          {
+            "chunk_id": "McGuffey_p40_80_p22_fixed_1",
+            "text": "en a gesture is made with one arm only, the eye should be cast in\nthe direction of that arm; not at it, but over it.\nAll speakers employ, more or less, the motions of the head. In\nreference to that member, we make but one observation. Avoid the\ncontinuous shaking and bobbing of the head, which is so conspicuous in\nthe action of many ambitious public speakers.\nThe beauty and force of all gesture consist in its timely, judicious, and\nnatural employment, when it can serve to illustrate the meaning ",
+            "page": 22,
+            "metadata": {
+              "page": 22,
+              "section": "gesture",
+              "has_no_text": false
+            },
+            "score": 0.5079959630966187
+          }
+        ]
+      },
+      {
+        "question_id": "q13",
+        "split": "dev",
+        "hit_@1": true,
+        "hit_@3": true,
+        "hits": [
+          {
+            "chunk_id": "McGuffey_p40_80_p23_fixed_0",
+            "text": "58 ECLECTIC SERIES.\n\"Words,\" says one, referring to articulation, should \"be delivered out\nfrom the lips, as beautiful coins, newly issued from the mint; deeply and\naccurately impressed, perfectly finished; neatly struck by the proper\norgans, distinct, in due succession, and of due weight.\" How rarely do we\nhear a speaker whose tongue, teeth, and lips, do their office so perfectly\nas to answer to this beautiful description! And the common faults in\narticulation, it should be remembered, take the",
+            "page": 23,
+            "metadata": {
+              "page": 23,
+              "section": "gesture",
+              "has_no_text": false
+            },
+            "score": 0.7330577055284678
+          },
+          {
+            "chunk_id": "McGuffey_p40_80_p14_fixed_4",
+            "text": "stinguished\nfrom the \"high tone,\" which is an elevation of pitch , and from \"loudness.\"\nor \"strength\" of voice.\nIt will be observed that clearness and distinctness of utterance are\nsecured by a proper use of the subvocals and aspirates--these sounds\ngiving to words their shape , as it were; but a clear, full, and well-\nmodulated utterance of the vocals gives to words their fullness.\nLONG QUANTITY.\n1. Liberty! Freedom! Tyranny is dead!\n2. Woe, woe, to the inhabitants of Jerusalem!\n6.-4.",
+            "page": 14,
+            "metadata": {
+              "page": 14,
+              "section": "voice",
+              "has_no_text": false
+            },
+            "score": 0.4541979730129242
+          },
+          {
+            "chunk_id": "McGuffey_p40_80_p18_fixed_3",
+            "text": " of\npersuasion; the full, strong voice of com mand and decision; the harsh,\nirregular, and sometimes grating explosion of the sounds of passion; the\nplaintive notes of sorrow and pity; and the equable and unimpas sioned\nflow of words in argumentative style. This differ ence consists in a\nvariation in the quality of the voice by which it is adapted to the character\nof the thought or sentiment read or spoken. In our attempts to imitate",
+            "page": 18,
+            "metadata": {
+              "page": 18,
+              "section": "voice",
+              "has_no_text": false
+            },
+            "score": 0.42673248052597046
+          }
+        ]
+      },
+      {
+        "question_id": "q14",
+        "split": "dev",
+        "hit_@1": true,
+        "hit_@3": true,
+        "hits": [
+          {
+            "chunk_id": "McGuffey_p40_80_p24_fixed_0",
+            "text": "SIXTH READER. 59\nIt is better that a girl should return from school a first -rate reader, than\na first-rate performer on the pianoforte. The accomplishment, in its\nperfection, would give more pleasure. The voice of song is not sweeter\nthan the voice of eloquence; and there may be eloquent readers , as well\nas eloquent speakers . We speak of perfection in this art: and it is\nsomething, we must say in defense of our preference, which we have\nnever yet seen. Let the same pains be devoted to reading",
+            "page": 24,
+            "metadata": {
+              "page": 24,
+              "section": "gesture",
+              "has_no_text": false
+            },
+            "score": 0.6049500648632727
+          },
+          {
+            "chunk_id": "McGuffey_p40_80_p24_fixed_1",
+            "text": "yet seen. Let the same pains be devoted to reading, as are required\nto form an accom plished performer on an instrument; let us have, as the\nancients had, the formers of the voice, the music masters of the reading\nvoice; let us see years devoted to this accomplishment, and then we\nshould be prepared to stand the comparison.\nReading is indeed, a most intellectual accomplishment. So is music,\ntoo, in its perfection. We do by no means undervalue this noble and most\ndelightful art, to which Socrates",
+            "page": 24,
+            "metadata": {
+              "page": 24,
+              "section": "gesture",
+              "has_no_text": false
+            },
+            "score": 0.4233489288895691
+          },
+          {
+            "chunk_id": "McGuffey_p40_80_p16_fixed_2",
+            "text": "creased or diminished as good taste may\ndetermine. With pupils generally, the tendency is to read too fast. The\nresult is, reading or speaking in too high a key and an unnatural style of\ndelivery--both of which faults are difficult to be corrected when once\nformed. The kinds of movement are Slow, Moderate , and Quick .\nDIRECTIONS.--Read a selection as slowly us possible, without\ndrawling. Read it again and again, increasing the rate of movement\nat each reading, until it can be",
+            "page": 16,
+            "metadata": {
+              "page": 16,
+              "section": "voice",
+              "has_no_text": false
+            },
+            "score": 0.36988289715255795
+          }
+        ]
+      },
+      {
+        "question_id": "q15",
+        "split": "dev",
+        "hit_@1": true,
+        "hit_@3": true,
+        "hits": [
+          {
+            "chunk_id": "McGuffey_p40_80_p28_fixed_0",
+            "text": "MCGUFFEY'S\nSIXTH READER.\nSELECTIONS FOR READING.\nI. ANECDOTE OF THE DUKE OF NEWCASTLE.\nA laughable story was circulated during the admin istration of the old\nDuke of Newcastle, and retailed to the public in various forms. This\nnobleman, with many good points, was remarkable for being profuse of\nhis promises on all occasions, and valued himself particularly on being\nable to anticipate the words or the wants of the va rious persons who\nattended his levees, before they uttered a word. This sometime",
+            "page": 28,
+            "metadata": {
+              "page": 28,
+              "section": "selection",
+              "has_no_text": false
+            },
+            "score": 0.6535502064421984
+          },
+          {
+            "chunk_id": "McGuffey_p40_80_p32_fixed_2",
+            "text": "a moment; but chagrin soon gave way to\nmirth, at so singular and ridicu lous a combination of circumstances, and,\nyielding to the impulse, he sunk upon the bed in a violent fit of laughter,\nwhich was communicated in a moment to the attendants.\nThe relater of this little narrative, concludes, with ob serving,\n\"Although the Duke of Newcastle could not place the relative of his old\nacquaintance on the throne of His Catholic Majesty, he advanced him to a\npost not less honor able --he made him an exc",
+            "page": 32,
+            "metadata": {
+              "page": 32,
+              "section": "selection",
+              "has_no_text": false
+            },
+            "score": 0.5810090822883643
+          },
+          {
+            "chunk_id": "McGuffey_p40_80_p28_fixed_1",
+            "text": " levees, before they uttered a word. This sometimes led him\ninto ridiculous embarrass ment; and it was this proneness to lavish\npromises, which gave occasion for the following anecdote:\nAt the election of a certain borough in Cornwall, where the opposite\ninterests were almost equally poised, a single vote was of the highest\nimportance. This object the Duke, by well applied argument and personal\napplication, at length attained; and the gentleman he recommended,\ngained the election. In the warmth ",
+            "page": 28,
+            "metadata": {
+              "page": 28,
+              "section": "selection",
+              "has_no_text": false
+            },
+            "score": 0.49525420353574723
+          }
+        ]
+      },
+      {
+        "question_id": "q16",
+        "split": "test",
+        "hit_@1": true,
+        "hit_@3": true,
+        "hits": [
+          {
+            "chunk_id": "McGuffey_p40_80_p33_fixed_2",
+            "text": "y beauty and art.\nBe wise, then, ye maidens, nor seek admiration,\nBy dressing for conquest, and flirting with all;\nYou never, whate'er be your fortune or station,\nAppear half so lovely at rout or at ball,\nAs gayly convened at the work-covered table,\nEach cheerfully active, playing her part,\nBeguiling the task with a song or a fable,\nAnd plying the needle with exquisite art:\nThe bright little needle, the swift-flying needle,\nThe needle directed by beauty and art.\n--Samuel Woodworth.",
+            "page": 33,
+            "metadata": {
+              "page": 33,
+              "section": "selection",
+              "has_no_text": false
+            },
+            "score": 0.7610169053077698
+          },
+          {
+            "chunk_id": "McGuffey_p40_80_p33_fixed_1",
+            "text": "e needle directed by beauty and art.\nIf Love have a potent, a magical token,\nA talisman, ever resistless and true,\nA charm that is never evaded or broken,\nA witchery certain the heart to subdue,\n'T is this; and his armory never has furnished\nSo keen and unerring, or polished a dart;\nLet beauty direct it, so polished and burnished,\nAnd oh! it is certain of touching the heart:\nThe bright little needle, the swift-flying needle,\nThe needle directed by beauty and art.\nBe wise, then, ye maidens, nor s",
+            "page": 33,
+            "metadata": {
+              "page": 33,
+              "section": "selection",
+              "has_no_text": false
+            },
+            "score": 0.6935809850692749
+          },
+          {
+            "chunk_id": "McGuffey_p40_80_p33_fixed_0",
+            "text": "SIXTH READER. 67\nII. THE NEEDLE.\nThe gay belles of fashion may boast of excelling\nIn waltz or cotillon, at whist or quadrille;\nAnd seek admiration by vauntingly telling\nOf drawing, and painting, and musical skill:\nBut give me the fair one, in country or city,\nWhose home and its duties are dear to her heart,\nWho cheerfully warbles some rustical ditty,\nWhile plying the needle with exquisite art:\nThe bright little needle, the swift-flying needle,\nThe needle directed by beauty and art.\nIf Love have ",
+            "page": 33,
+            "metadata": {
+              "page": 33,
+              "section": "selection",
+              "has_no_text": false
+            },
+            "score": 0.6703620153449776
+          }
+        ]
+      },
+      {
+        "question_id": "q17",
+        "split": "test",
+        "hit_@1": true,
+        "hit_@3": true,
+        "hits": [
+          {
+            "chunk_id": "McGuffey_p40_80_p34_fixed_0",
+            "text": "68 ECLECTIC SERIES.\nIII. DAWN.\nEdward Everett , 1794-1865. He was born at Dorchester, Mass., now a\npart of Boston, and graduated from Harvard College with the highest honors\nof his class, at the age of seventeen. While yet in college, he had quite a\nreputation as a brilliant writer. Before he was twenty years of age, he was\nsettled as pastor over the Brattle Street Church, in Boston, and at once\nbecame famous as an eloquent preacher. In 1814, he was elected Professor of\nGreek Literature in his A",
+            "page": 34,
+            "metadata": {
+              "page": 34,
+              "section": "selection",
+              "has_no_text": false
+            },
+            "score": 0.6884853654197076
+          },
+          {
+            "chunk_id": "McGuffey_p40_80_p34_fixed_1",
+            "text": "was elected Professor of\nGreek Literature in his Alma Mater ; and, in order to prepare himself for the\nduties of his office, he entered on an extended course of travel in Europe. He\nedited the \"North American Review,\" in addition to the labors of his\nprofessorship, after he returned to America.\nIn 1825, Mr. Everett was elected to Congress, and held his seat in the\nHouse for ten years. He was Governor of his native state from 1835 to 1839.\nIn 1841, he was appointed Minister to England. On his ret",
+            "page": 34,
+            "metadata": {
+              "page": 34,
+              "section": "selection",
+              "has_no_text": false
+            },
+            "score": 0.433294335004181
+          },
+          {
+            "chunk_id": "McGuffey_p40_80_p34_fixed_2",
+            "text": ", he was appointed Minister to England. On his return, in 1846, he\nwas chosen President of Harvard University, and held the office for three\nyears. In 1852, he was appointed Secretary of State. February 22, 1856, he\ndelivered, in Boston, his celebrated lecture on Washington. This lecture was\nafterwards delivered in most of the prin cipal cities and towns in the United\nStates. The proceeds were devoted to the purchase of Mt. Vernon. In 1860,\nhe was a candidate for the Vice Presidency of the Unite",
+            "page": 34,
+            "metadata": {
+              "page": 34,
+              "section": "selection",
+              "has_no_text": false
+            },
+            "score": 0.3899803873890755
+          }
+        ]
+      },
+      {
+        "question_id": "q18",
+        "split": "test",
+        "hit_@1": false,
+        "hit_@3": true,
+        "hits": [
+          {
+            "chunk_id": "McGuffey_p40_80_p37_fixed_0",
+            "text": "SIXTH READER. 71\nof the wind, sought safety and found destruction; some of the largest trees\nwere torn up by the roots; the sluices of the mountains were filled, and\ninnumerable torrents rushed down the before empty gullies. The heavens\nnow open, and the lightning and thunder contend with the horrors of the\nwind.\nIn a moment, all was again hushed. Dead silence suc ceeded the bellow\nof the thunder, the roar of the wind, the rush of the waters, the moaning of\nthe beasts, the screaming of the birds",
+            "page": 37,
+            "metadata": {
+              "page": 37,
+              "section": "selection",
+              "has_no_text": false
+            },
+            "score": 0.6100399959039736
+          },
+          {
+            "chunk_id": "McGuffey_p40_80_p37_fixed_1",
+            "text": " moaning of\nthe beasts, the screaming of the birds. Nothing was heard save the plash\nof the agitated lake, as it beat up against the black rocks which girt it in.\nAgain, greater darkness enveloped the trembling earth. Anon, the\nheavens were rent with lightning, which nothing could have quenched but\nthe descending deluge. Cataracts poured down from the lowering\nfirmament. For an instant, the horses dashed madly forward; beast and\nrider blinded and stifled by the gushing rain, and gasping for brea",
+            "page": 37,
+            "metadata": {
+              "page": 37,
+              "section": "selection",
+              "has_no_text": false
+            },
+            "score": 0.4015700460416114
+          },
+          {
+            "chunk_id": "McGuffey_p40_80_p14_fixed_2",
+            "text": "-y;\" in the reply of the sailor, when, in\nthe roar of the storm, he answers his captain, \"ay--e. ay--e;\" and in the\ncommand of the officer to his troops, when, amid the thunder of artillery,\nhe gives the order, \"ma--rch,\" or \"ha--lt.\"\nThis fullness or roundness of tone is secured, by dwelling on the vocal\nsound , and indefinitely protracting it, The mouth should be opened wide,\nthe tongue kept down, and the aperture left as round and as free for the\nvoice as possible.\nIt is this artificial rotun",
+            "page": 14,
+            "metadata": {
+              "page": 14,
+              "section": "voice",
+              "has_no_text": false
+            },
+            "score": 0.35895973443984985
+          }
+        ]
+      },
+      {
+        "question_id": "q19",
+        "split": "test",
+        "hit_@1": false,
+        "hit_@3": false,
+        "hits": [
+          {
+            "chunk_id": "McGuffey_p40_80_p37_fixed_0",
+            "text": "SIXTH READER. 71\nof the wind, sought safety and found destruction; some of the largest trees\nwere torn up by the roots; the sluices of the mountains were filled, and\ninnumerable torrents rushed down the before empty gullies. The heavens\nnow open, and the lightning and thunder contend with the horrors of the\nwind.\nIn a moment, all was again hushed. Dead silence suc ceeded the bellow\nof the thunder, the roar of the wind, the rush of the waters, the moaning of\nthe beasts, the screaming of the birds",
+            "page": 37,
+            "metadata": {
+              "page": 37,
+              "section": "selection",
+              "has_no_text": false
+            },
+            "score": 0.5491505697622845
+          },
+          {
+            "chunk_id": "McGuffey_p40_80_p38_fixed_0",
+            "text": "72 ECLECTIC SERIES.\nV. AFTER THE THUNDERSTORM.\nJames Thomson , 1700-1748, the son of a clergyman, was born in\nScotland. He studied at the University of Edinburgh, and intended to\nfollow the profession of his father, but never entered upon the duties of\nthe sacred office. In 1724 he went to London, where he spent most of his\nsubsequent life. He had shown some poetical talent when it boy; and, in\n1826, he published \"Winter,\" a part of a longer poem, en titled \"The\nSeasons,\" the best known of all h",
+            "page": 38,
+            "metadata": {
+              "page": 38,
+              "section": "selection",
+              "has_no_text": false
+            },
+            "score": 0.4833697656833855
+          },
+          {
+            "chunk_id": "McGuffey_p40_80_p10_fixed_0",
+            "text": "SIXTH READER. 45\nA simile, in poetry, should usually he read in a lower key and more\nrapidly than other parts of the passage-- somewhat as a parenthesis is read.\nEXAMPLES.\n1. Part curb their fiery steeds, or shun the goal\nWith rapid wheels, or fronted brigades form.\nAs when, to warn proud cities, war appears,\nWaged in the troubled sky, and armies rush\nTo battle in the clouds.\nOthers with vast Typhoean rage more fell,\nRend up both rocks and hills, and ride the air\nIn whirlwind. Hell scarce holds ",
+            "page": 10,
+            "metadata": {
+              "page": 10,
+              "section": "emphasis_verse",
+              "has_no_text": false
+            },
+            "score": 0.4369432720789276
+          }
+        ]
+      },
+      {
+        "question_id": "q20",
+        "split": "test",
+        "hit_@1": false,
+        "hit_@3": false,
+        "hits": [
+          {
+            "chunk_id": "McGuffey_p40_80_p40_fixed_3",
+            "text": " heads,\nFind out their enemies now. Tremble, thou wretch,\nThat hast within thee undivulged crimes\nUnwhipp'd of justice.\nClose pent-up guilts,\nRive your concealing continents, and cry\nThese dreadful summoners grace.\"\nThis ceremony completed, and the house thoroughly evacuated, the\nnext operation is to smear the walls and ceilings with brushes dipped into\na solution of lime, called whitewash; to pour buckets of water over every\nfloor; and scratch all the partitions and wainscots with hard brushes,",
+            "page": 40,
+            "metadata": {
+              "page": 40,
+              "section": "selection",
+              "has_no_text": false
+            },
+            "score": 0.3658748516253907
+          },
+          {
+            "chunk_id": "McGuffey_p40_80_p39_fixed_0",
+            "text": "SIXTH READER. 73\nVI. HOUSE CLEANING.\nFrancis Hopkinson , 1737-1791. He was the son of an Englishman;\nborn in Philadelphia, and was educated at the college of that city, now the\nUniversity of Pennsylvania. He represented New Jersey in the Congress\nof 1776, and was one of the signers of the Declaration of Independence.\nHe was one of the most sensible and elegant writers of his time, and\ndistinguished himself both in prose and verse. His lighter writings abound\nin humor and keen satire; his more so",
+            "page": 39,
+            "metadata": {
+              "page": 39,
+              "section": "selection",
+              "has_no_text": false
+            },
+            "score": 0.337040891802444
+          },
+          {
+            "chunk_id": "McGuffey_p40_80_p41_fixed_1",
+            "text": "his operation: but after long argument, it was determined that no\ndamages could be awarded; inasmuch as the defendant was in the exercise\nof a legal right, and not answerable for the consequences. And so the poor\ngentleman was doubly non- suited; for he lost both his suit of clothes and\nhis suit at law.\nThese smearings and scratchings, these washings and dashings, being\nduly performed, the next ceremonial is to cleanse and replace the\ndistracted furniture. You may have seen a house raising, or a",
+            "page": 41,
+            "metadata": {
+              "page": 41,
+              "section": "selection",
+              "has_no_text": false
+            },
+            "score": 0.331126371953681
+          }
+        ]
+      }
+    ]
+  },
+  "strategy_B_paragraph": {
+    "summary": {
+      "total_queries": 20,
+      "overall": {
+        "n": 20,
+        "hit_1": "17/20",
+        "hit_3": "20/20",
+        "hit_1_rate": 0.85,
+        "hit_3_rate": 1.0
+      },
+      "by_split": {
+        "dev": {
+          "n": 15,
+          "hit_1": "14/15",
+          "hit_3": "15/15",
+          "hit_1_rate": 0.9333333333333333,
+          "hit_3_rate": 1.0
+        },
+        "test": {
+          "n": 5,
+          "hit_1": "3/5",
+          "hit_3": "5/5",
+          "hit_1_rate": 0.6,
+          "hit_3_rate": 1.0
+        }
+      },
+      "hit_1_rate": 0.85,
+      "hit_3_rate": 1.0
+    },
+    "traces": [
+      {
+        "question_id": "q01",
+        "split": "dev",
+        "hit_@1": false,
+        "hit_@3": true,
+        "hits": [
+          {
+            "chunk_id": "McGuffey_p40_80_p3_para_0",
+            "text": "38 ECLECTIC SERIES.\n3. If content can not remove' the disquietudes of life, it will, at least,\nalleviate them.\n4. The sweetest melody and the most perfect harmony fall powerless\nupon the ear of one who is deaf ' ,\n5. It is useless to expatiate upon the beauties of nature to one who is\nblind' ,\n6. And they that have believing masters, let them not despise them,\nbecause they are brethren' ; but rather let them do them service.\nEMPHATIC PHRASE.\nWhen it is desired to give to a phrase great force of expression, each\nword, and even the parts of a compound word, are independently\nemphasized.\nEXAMPLES",
+            "page": 3,
+            "metadata": {
+              "page": 3,
+              "section": "emphasis_verse",
+              "has_no_text": false
+            },
+            "score": 0.43059518933296514
+          },
+          {
+            "chunk_id": "McGuffey_p40_80_p14_para_1",
+            "text": "tity at each\nrepetition, until you can dwell upon it any desired length of time, without\ndrawling, and in a natural tone.\nREMARK.--Practice in accordance with this direction will enable the\npupil to secure that fullness and roundness of voice which is exemplified\nin the hailing of a ship, \"ship aho--y;\" in the reply of the sailor, when, in\nthe roar of the storm, he answers his captain, \"ay--e. ay--e;\" and in the\ncommand of the officer to his troops, when, amid the thunder of artillery,\nhe gives the order, \"ma--rch,\" or \"ha--lt.\"\nThis fullness or roundness of tone is secured, by dwelling on the",
+            "page": 14,
+            "metadata": {
+              "page": 14,
+              "section": "voice",
+              "has_no_text": false
+            },
+            "score": 0.4299949663874494
+          },
+          {
+            "chunk_id": "McGuffey_p40_80_p2_para_0",
+            "text": "SIXTH READER. 37\nEMPHASIS AND ACCENT.\nWhen words, which are the same in part of their for mation, are\ncontrasted, the emphasis is expressed by ac centi ng the syllables in which\nthey differ. See Accent, page 33.\nEXAMPLES.\n1. What is the difference between pro bability and poss ibility?\n2. Learn to un learn what you have learned amiss.\n3. John attends reg ularly. William, irregularly.\n4. There is a great difference between giv ing and for giving.\n5. The conduct of Antoninus was characterized by justice\nand humanity; that of Nero, by injustice and inhumanity.\n6. The conduct of the former is dese",
+            "page": 2,
+            "metadata": {
+              "page": 2,
+              "section": "emphasis_verse",
+              "has_no_text": false
+            },
+            "score": 0.4244217276573211
+          }
+        ]
+      },
+      {
+        "question_id": "q02",
+        "split": "dev",
+        "hit_@1": true,
+        "hit_@3": true,
+        "hits": [
+          {
+            "chunk_id": "McGuffey_p40_80_p4_para_0",
+            "text": "SIXTH READER. 39\nEMPHATIC PAUSE.\nA short pause is often made before or after, and some times both befo re\nand after, an emphatic word or phrase,--thus very much increasing the\nemphatic expression of the thought.\nEXAMPLES.\n1. May one be pardoned, and retain --the offense?\nIn the corrupted currents of this world,\nOffense's gilded hand may shove by-- justice ;\nAnd oft 'tis seen, the wicked prize itself\nBuys out the law: but 't is not so-- above :\nThere--is no shuffling: there --the action lies\nIn its true nature.\n2. He woke to hear his sentries shriek,\n\"To arms! they come! the Greek! the Greek!\nH",
+            "page": 4,
+            "metadata": {
+              "page": 4,
+              "section": "emphasis_verse",
+              "has_no_text": false
+            },
+            "score": 0.6758479081346964
+          },
+          {
+            "chunk_id": "McGuffey_p40_80_p8_para_1",
+            "text": "the end of each line, even where the\nsense does not require it.\nThere is, also, in almost every line of poetry, a pause at or near its\nmiddle, which is called the caesura .\nThis should, however, never be so placed as to injure the sense of the\npassage. It is indeed reckoned a great beauty, where it naturally coincides\nwith the pause re quired by the sense. The caesura, though generally\nplaced near the middle, may be placed at other intervals.\nThere are sometimes, also, two additional pauses in each line, called\ndemi-caesuras.\nThe caesura is marked (||), and the demi-caesura thus, (|), in the\ne",
+            "page": 8,
+            "metadata": {
+              "page": 8,
+              "section": "emphasis_verse",
+              "has_no_text": false
+            },
+            "score": 0.497921139125757
+          },
+          {
+            "chunk_id": "McGuffey_p40_80_p14_para_1",
+            "text": "tity at each\nrepetition, until you can dwell upon it any desired length of time, without\ndrawling, and in a natural tone.\nREMARK.--Practice in accordance with this direction will enable the\npupil to secure that fullness and roundness of voice which is exemplified\nin the hailing of a ship, \"ship aho--y;\" in the reply of the sailor, when, in\nthe roar of the storm, he answers his captain, \"ay--e. ay--e;\" and in the\ncommand of the officer to his troops, when, amid the thunder of artillery,\nhe gives the order, \"ma--rch,\" or \"ha--lt.\"\nThis fullness or roundness of tone is secured, by dwelling on the",
+            "page": 14,
+            "metadata": {
+              "page": 14,
+              "section": "voice",
+              "has_no_text": false
+            },
+            "score": 0.4237743020057678
+          }
+        ]
+      },
+      {
+        "question_id": "q03",
+        "split": "dev",
+        "hit_@1": true,
+        "hit_@3": true,
+        "hits": [
+          {
+            "chunk_id": "McGuffey_p40_80_p4_para_1",
+            "text": "e woke--to die--midst flame and smoke.\"\n3. This--is no flattery : These --are counselors\nThat feelingly persuade me what I am.\n4. And this--our life, exempt from public haunt,\nFinds tongues --in tree, books --in the running brooks ,\nSermons --in stones , and-- good in everything .\n5. Heaven gave this Lyre, and thus decreed,\nBe thou a bruised --but not a broken --reed.\nIV. INSTRUCTIONS FOR READING VERSE.\nINFLECTIONS.\nIn reading verse, the inflections should be nearly the same as in reading\nprose; the chief difference is, that in poetry, the monotone and rising\ninflection are more fre quently us",
+            "page": 4,
+            "metadata": {
+              "page": 4,
+              "section": "emphasis_verse",
+              "has_no_text": false
+            },
+            "score": 0.6667682925829826
+          },
+          {
+            "chunk_id": "McGuffey_p40_80_p6_para_0",
+            "text": "SIXTH READER. 41\n4. Large was his bounty', and his soul sincere',\nHeaven did a recompense as largely send';\nHe gave to misery (all he had) a tear',\nHe gained from heaven' ('t was all he wished') a friend'.\n5. No further seek his merits to disclose',\nOr draw his frailties from their dread abode';\n(There they alike' in trembling hope repose',)\nThe bosom of his Father, and his God'.\nACCENT AND EMPHASIS.\nIn reading verse, every syllable must have the same accent, and every\nword the same emphasis as in prose; and whenever the melody or music\nof the verse would lead to an incorrect accent or emphasi",
+            "page": 6,
+            "metadata": {
+              "page": 6,
+              "section": "emphasis_verse",
+              "has_no_text": false
+            },
+            "score": 0.5552983018933715
+          },
+          {
+            "chunk_id": "McGuffey_p40_80_p7_para_0",
+            "text": "42 ECLECTIC SERIES.\nmarked in italics . According to the principle stated above, the reader\nshould avoid giving them that pronunciation which the correct rending of\nthe poetry would require, but should read them as prose, except where he\ncan throw off all accent and thus compromise the conflict between the\npoetic reading and the correct reading. That is, he must read the poetry\nwrong , in order to read the language right .\nEXAMPLES.\n1. Ask of thy mother earth why oaks are made\nTaller and stronger than the weeds they shade.\n2. Their praise is still, \"the style is excel lent ,\"\nThe sense they hu",
+            "page": 7,
+            "metadata": {
+              "page": 7,
+              "section": "emphasis_verse",
+              "has_no_text": false
+            },
+            "score": 0.5113061818869766
+          }
+        ]
+      },
+      {
+        "question_id": "q04",
+        "split": "dev",
+        "hit_@1": true,
+        "hit_@3": true,
+        "hits": [
+          {
+            "chunk_id": "McGuffey_p40_80_p11_para_0",
+            "text": "46 ECLECTIC SERIES.\nV. THE VOICE.\nPITCH AND COMPASS.\nThe natural pitch of the voice is its keynote, or governing note. It is\nthat on which the voice usually dwells, and to which it most frequently\nreturns when wearied. It is also the pitch used in conversation, and the\none which a reader or speaker naturally adopts--when he reads or speaks--\nmost easily and agreeably.\nThe compass of the voice is its range above and below this pitch. To\navoid monotony in reading or speaking, the voice should rise above or fall\nbelow this keynote, but always with reference to the sense or character of\nthat which",
+            "page": 11,
+            "metadata": {
+              "page": 11,
+              "section": "voice",
+              "has_no_text": false
+            },
+            "score": 0.6853049209895695
+          },
+          {
+            "chunk_id": "McGuffey_p40_80_p11_para_1",
+            "text": " is read or spoken. The proper natural pitch is that above and\nbelow which there is most room for variation.\nTo strengthen the voice and increase its compass, select a short\nsentence, repeat it several times in succession in as low a key as the voice\ncan sound naturally; then rise one note higher, and practice on that key,\nthen another, and so on, until the highest pitch of the voice has been\nreached. Next, reverse the process, until the lowest pitch has been\nreached.\nEXAMPLES IN PITCH\nHigh Pitch.\nNOTE.--Be careful to distinguish pitch from power in the following\nexercise. Speaking in the open",
+            "page": 11,
+            "metadata": {
+              "page": 11,
+              "section": "voice",
+              "has_no_text": false
+            },
+            "score": 0.6672137975692749
+          },
+          {
+            "chunk_id": "McGuffey_p40_80_p14_para_2",
+            "text": " vocal\nsound , and indefinitely protracting it, The mouth should be opened wide,\nthe tongue kept down, and the aperture left as round and as free for the\nvoice as possible.\nIt is this artificial rotundity which, in connection with a distinct\narticulation, enables one who speaks in the open air, or in a very large\napartment, to send his voice to the most distant point. It is a certain degree\nof this quality, which distinguishes declamatory or public speaking or\nreading from private conversation, and no one can accomplish much, as a\npublic speaker, without cultivating it. It must be carefully di",
+            "page": 14,
+            "metadata": {
+              "page": 14,
+              "section": "voice",
+              "has_no_text": false
+            },
+            "score": 0.5312106609344482
+          }
+        ]
+      },
+      {
+        "question_id": "q05",
+        "split": "dev",
+        "hit_@1": true,
+        "hit_@3": true,
+        "hits": [
+          {
+            "chunk_id": "McGuffey_p40_80_p11_para_0",
+            "text": "46 ECLECTIC SERIES.\nV. THE VOICE.\nPITCH AND COMPASS.\nThe natural pitch of the voice is its keynote, or governing note. It is\nthat on which the voice usually dwells, and to which it most frequently\nreturns when wearied. It is also the pitch used in conversation, and the\none which a reader or speaker naturally adopts--when he reads or speaks--\nmost easily and agreeably.\nThe compass of the voice is its range above and below this pitch. To\navoid monotony in reading or speaking, the voice should rise above or fall\nbelow this keynote, but always with reference to the sense or character of\nthat which",
+            "page": 11,
+            "metadata": {
+              "page": 11,
+              "section": "voice",
+              "has_no_text": false
+            },
+            "score": 0.6492326244025791
+          },
+          {
+            "chunk_id": "McGuffey_p40_80_p11_para_1",
+            "text": " is read or spoken. The proper natural pitch is that above and\nbelow which there is most room for variation.\nTo strengthen the voice and increase its compass, select a short\nsentence, repeat it several times in succession in as low a key as the voice\ncan sound naturally; then rise one note higher, and practice on that key,\nthen another, and so on, until the highest pitch of the voice has been\nreached. Next, reverse the process, until the lowest pitch has been\nreached.\nEXAMPLES IN PITCH\nHigh Pitch.\nNOTE.--Be careful to distinguish pitch from power in the following\nexercise. Speaking in the open",
+            "page": 11,
+            "metadata": {
+              "page": 11,
+              "section": "voice",
+              "has_no_text": false
+            },
+            "score": 0.531356588940519
+          },
+          {
+            "chunk_id": "McGuffey_p40_80_p12_para_0",
+            "text": "SIXTH READER. 47\n4. Run'! run'! run for your lives!\n5. Fire'! fire'! fire'! Ring the bell'!\n6. Gentlemen may cry peace'! peace'! but there is no peace!\n7. Rouse' ye Romans! rouse' ye slaves'!\nHave ye brave sons'? Look in the next fierce brawl\nTo see them die'. Have ye fair daughters'? Look\nTo see them live, torn from your arms', distained',\nDishonored', and if ye dare call for justice',\nBe answered by the lash'!\nMedium Pitch.\nNOTE.--This is the pitch in which we converse. To strengthen it, we\nshould read or speak in it as loud as possible, without rising to a higher\nkey. To do this requires lo",
+            "page": 12,
+            "metadata": {
+              "page": 12,
+              "section": "voice",
+              "has_no_text": false
+            },
+            "score": 0.4453204737508174
+          }
+        ]
+      },
+      {
+        "question_id": "q06",
+        "split": "dev",
+        "hit_@1": true,
+        "hit_@3": true,
+        "hits": [
+          {
+            "chunk_id": "McGuffey_p40_80_p11_para_1",
+            "text": " is read or spoken. The proper natural pitch is that above and\nbelow which there is most room for variation.\nTo strengthen the voice and increase its compass, select a short\nsentence, repeat it several times in succession in as low a key as the voice\ncan sound naturally; then rise one note higher, and practice on that key,\nthen another, and so on, until the highest pitch of the voice has been\nreached. Next, reverse the process, until the lowest pitch has been\nreached.\nEXAMPLES IN PITCH\nHigh Pitch.\nNOTE.--Be careful to distinguish pitch from power in the following\nexercise. Speaking in the open",
+            "page": 11,
+            "metadata": {
+              "page": 11,
+              "section": "voice",
+              "has_no_text": false
+            },
+            "score": 0.6456898873222054
+          },
+          {
+            "chunk_id": "McGuffey_p40_80_p11_para_0",
+            "text": "46 ECLECTIC SERIES.\nV. THE VOICE.\nPITCH AND COMPASS.\nThe natural pitch of the voice is its keynote, or governing note. It is\nthat on which the voice usually dwells, and to which it most frequently\nreturns when wearied. It is also the pitch used in conversation, and the\none which a reader or speaker naturally adopts--when he reads or speaks--\nmost easily and agreeably.\nThe compass of the voice is its range above and below this pitch. To\navoid monotony in reading or speaking, the voice should rise above or fall\nbelow this keynote, but always with reference to the sense or character of\nthat which",
+            "page": 11,
+            "metadata": {
+              "page": 11,
+              "section": "voice",
+              "has_no_text": false
+            },
+            "score": 0.5855888971335447
+          },
+          {
+            "chunk_id": "McGuffey_p40_80_p24_para_1",
+            "text": "had, the formers of the voice, the music masters of the reading\nvoice; let us see years devoted to this accomplishment, and then we\nshould be prepared to stand the comparison.\nReading is indeed, a most intellectual accomplishment. So is music,\ntoo, in its perfection. We do by no means undervalue this noble and most\ndelightful art, to which Socrates applied himself even in his old age. But\none recommendation of the art of reading is, that it requires a constant\nexercise of mind. It involves, in its perfection, the whole art of criticism\non language. A man may possess a fine genius without being",
+            "page": 24,
+            "metadata": {
+              "page": 24,
+              "section": "gesture",
+              "has_no_text": false
+            },
+            "score": 0.5052976005914723
+          }
+        ]
+      },
+      {
+        "question_id": "q07",
+        "split": "dev",
+        "hit_@1": true,
+        "hit_@3": true,
+        "hits": [
+          {
+            "chunk_id": "McGuffey_p40_80_p14_para_0",
+            "text": "SIXTH READER. 49\nQUANTITY AND QUALITY.\nQuantity , in reading and speaking, means the length of time occupied\nin uttering a syllable or a word. Sounds and syllables vary greatly in\nquantity. Some are long, some short, and others intermediate between\nthose which are long or short. Some sounds, also, may be prolonged or\nshortened in utterance to any desired extent. Quantity may be classified as\nLong, Medium, or Short .\nDIRECTIONS FOR PRACTICE ON LONG QUANTITY.--Select\nsome word of one syllable ending with a long vocal or a subvocal sound;\npronounce it many times in succession, increasing the quan",
+            "page": 14,
+            "metadata": {
+              "page": 14,
+              "section": "voice",
+              "has_no_text": false
+            },
+            "score": 0.73820502205536
+          },
+          {
+            "chunk_id": "McGuffey_p40_80_p16_para_1",
+            "text": "lf under any restraint, nor very solicitously copy his\ndiction, or his mien, however matured by age or modeled by experience.\nMOVEMENT.\nMovement is the rapidity with which the voice moves in reading and\nspeaking. It varies with the nature of the thought or sentiment to be\nexpressed, and should be increased or diminished as good taste may\ndetermine. With pupils generally, the tendency is to read too fast. The\nresult is, reading or speaking in too high a key and an unnatural style of\ndelivery--both of which faults are difficult to be corrected when once\nformed. The kinds of movement are Slow, Mo",
+            "page": 16,
+            "metadata": {
+              "page": 16,
+              "section": "voice",
+              "has_no_text": false
+            },
+            "score": 0.42125855151589386
+          },
+          {
+            "chunk_id": "McGuffey_p40_80_p24_para_1",
+            "text": "had, the formers of the voice, the music masters of the reading\nvoice; let us see years devoted to this accomplishment, and then we\nshould be prepared to stand the comparison.\nReading is indeed, a most intellectual accomplishment. So is music,\ntoo, in its perfection. We do by no means undervalue this noble and most\ndelightful art, to which Socrates applied himself even in his old age. But\none recommendation of the art of reading is, that it requires a constant\nexercise of mind. It involves, in its perfection, the whole art of criticism\non language. A man may possess a fine genius without being",
+            "page": 24,
+            "metadata": {
+              "page": 24,
+              "section": "gesture",
+              "has_no_text": false
+            },
+            "score": 0.4191371923427939
+          }
+        ]
+      },
+      {
+        "question_id": "q08",
+        "split": "dev",
+        "hit_@1": true,
+        "hit_@3": true,
+        "hits": [
+          {
+            "chunk_id": "McGuffey_p40_80_p14_para_0",
+            "text": "SIXTH READER. 49\nQUANTITY AND QUALITY.\nQuantity , in reading and speaking, means the length of time occupied\nin uttering a syllable or a word. Sounds and syllables vary greatly in\nquantity. Some are long, some short, and others intermediate between\nthose which are long or short. Some sounds, also, may be prolonged or\nshortened in utterance to any desired extent. Quantity may be classified as\nLong, Medium, or Short .\nDIRECTIONS FOR PRACTICE ON LONG QUANTITY.--Select\nsome word of one syllable ending with a long vocal or a subvocal sound;\npronounce it many times in succession, increasing the quan",
+            "page": 14,
+            "metadata": {
+              "page": 14,
+              "section": "voice",
+              "has_no_text": false
+            },
+            "score": 0.49772894368940346
+          },
+          {
+            "chunk_id": "McGuffey_p40_80_p9_para_2",
+            "text": "to another object of a different class;\nit is a poetical or imaginative comparison.",
+            "page": 9,
+            "metadata": {
+              "page": 9,
+              "section": "emphasis_verse",
+              "has_no_text": false
+            },
+            "score": 0.32157397270202637
+          },
+          {
+            "chunk_id": "McGuffey_p40_80_p41_para_2",
+            "text": "amental, or valuable articles suffer mutilation or\ndeath under the operation. A mahogany chair and a carved frame undergo\nthe same discipline; they are to be made clean at all events; but their\npreservation is not worthy of attention.\nFor instance: a fine large engraving is laid flat upon the floor; a number\nof smaller prints are piled upon it, until the superincumbent weight cracks\nthe lower glass --but this is of no importance. A valuable picture is placed\nleaning against the sharp corner of a table; others are made to lean against\nthat, till the pressure of the whole forces the corner of th",
+            "page": 41,
+            "metadata": {
+              "page": 41,
+              "section": "selection",
+              "has_no_text": false
+            },
+            "score": 0.24440784719037145
+          }
+        ]
+      },
+      {
+        "question_id": "q09",
+        "split": "dev",
+        "hit_@1": true,
+        "hit_@3": true,
+        "hits": [
+          {
+            "chunk_id": "McGuffey_p40_80_p16_para_1",
+            "text": "lf under any restraint, nor very solicitously copy his\ndiction, or his mien, however matured by age or modeled by experience.\nMOVEMENT.\nMovement is the rapidity with which the voice moves in reading and\nspeaking. It varies with the nature of the thought or sentiment to be\nexpressed, and should be increased or diminished as good taste may\ndetermine. With pupils generally, the tendency is to read too fast. The\nresult is, reading or speaking in too high a key and an unnatural style of\ndelivery--both of which faults are difficult to be corrected when once\nformed. The kinds of movement are Slow, Mo",
+            "page": 16,
+            "metadata": {
+              "page": 16,
+              "section": "voice",
+              "has_no_text": false
+            },
+            "score": 0.6683876116044765
+          },
+          {
+            "chunk_id": "McGuffey_p40_80_p20_para_0",
+            "text": "SIXTH READER. 55\nVI. GESTURE.\nGesture is that part of the speaker's manner which per tai ns to his\nattitude, to the use and carriage of his person, and the movement of his\nlimbs in delivery.\nEvery person, in beginning to speak, feels the natural embarrassment\nresulting from his new position. The nov elty of the situation destroys his\nself-possession, and, with the loss of that, he becomes awkward, his arms\nand hands hang clumsily, and now, for the first time, seem to him worse\nthan superfluous members. This embarrassment will be overcome\ngradually, as the speaker becomes familiar with his posi",
+            "page": 20,
+            "metadata": {
+              "page": 20,
+              "section": "gesture",
+              "has_no_text": false
+            },
+            "score": 0.5255797474885288
+          },
+          {
+            "chunk_id": "McGuffey_p40_80_p22_para_1",
+            "text": ", the motions of the head. In\nreference to that member, we make but one observation. Avoid the\ncontinuous shaking and bobbing of the head, which is so conspicuous in\nthe action of many ambitious public speakers.\nThe beauty and force of all gesture consist in its timely, judicious, and\nnatural employment, when it can serve to illustrate the meaning or give\nemphasis to the force of an important passage. The usual fault of young\nspeakers is too much action. To emphasize all parts alike, is equivalent to\nno emphasis; and by employing forcible gestures on unimportant\npassages, we diminish our power",
+            "page": 22,
+            "metadata": {
+              "page": 22,
+              "section": "gesture",
+              "has_no_text": false
+            },
+            "score": 0.4970979990304718
+          }
+        ]
+      },
+      {
+        "question_id": "q10",
+        "split": "dev",
+        "hit_@1": true,
+        "hit_@3": true,
+        "hits": [
+          {
+            "chunk_id": "McGuffey_p40_80_p16_para_1",
+            "text": "lf under any restraint, nor very solicitously copy his\ndiction, or his mien, however matured by age or modeled by experience.\nMOVEMENT.\nMovement is the rapidity with which the voice moves in reading and\nspeaking. It varies with the nature of the thought or sentiment to be\nexpressed, and should be increased or diminished as good taste may\ndetermine. With pupils generally, the tendency is to read too fast. The\nresult is, reading or speaking in too high a key and an unnatural style of\ndelivery--both of which faults are difficult to be corrected when once\nformed. The kinds of movement are Slow, Mo",
+            "page": 16,
+            "metadata": {
+              "page": 16,
+              "section": "voice",
+              "has_no_text": false
+            },
+            "score": 0.5865342370590123
+          },
+          {
+            "chunk_id": "McGuffey_p40_80_p16_para_2",
+            "text": "derate , and Quick .\nDIRECTIONS.--Read a selection as slowly us possible, without\ndrawling. Read it again and again, increasing the rate of movement\nat each reading, until it can be",
+            "page": 16,
+            "metadata": {
+              "page": 16,
+              "section": "voice",
+              "has_no_text": false
+            },
+            "score": 0.4542227197488595
+          },
+          {
+            "chunk_id": "McGuffey_p40_80_p17_para_0",
+            "text": "52 ECLECTIC SERIES.\nread no faster without the utterance becoming indistinct. Reverse this\nprocess, reading more and more slowly at each repetition, until the\nslowest movement is obtained.\nSLOW MOVEMENT.\n1. Oh that those lips had language! Life has passed\nWith me but roughly, since I heard them last.\n2. A tremulous sigh from the gentle night wind\nThrough the forest leaves slowly is creeping,\nWhile stars up above, with their glittering eyes,\nKeep guard; for the army is sleeping.\n3. O Lord'! have mercy upon us, miserable offenders'!\n4. So live, that when thy summons comes to join\nThe innumerable",
+            "page": 17,
+            "metadata": {
+              "page": 17,
+              "section": "voice",
+              "has_no_text": false
+            },
+            "score": 0.41080703799766605
+          }
+        ]
+      },
+      {
+        "question_id": "q11",
+        "split": "dev",
+        "hit_@1": true,
+        "hit_@3": true,
+        "hits": [
+          {
+            "chunk_id": "McGuffey_p40_80_p20_para_0",
+            "text": "SIXTH READER. 55\nVI. GESTURE.\nGesture is that part of the speaker's manner which per tai ns to his\nattitude, to the use and carriage of his person, and the movement of his\nlimbs in delivery.\nEvery person, in beginning to speak, feels the natural embarrassment\nresulting from his new position. The nov elty of the situation destroys his\nself-possession, and, with the loss of that, he becomes awkward, his arms\nand hands hang clumsily, and now, for the first time, seem to him worse\nthan superfluous members. This embarrassment will be overcome\ngradually, as the speaker becomes familiar with his posi",
+            "page": 20,
+            "metadata": {
+              "page": 20,
+              "section": "gesture",
+              "has_no_text": false
+            },
+            "score": 0.809849333176058
+          },
+          {
+            "chunk_id": "McGuffey_p40_80_p22_para_0",
+            "text": "SIXTH READER. 57\nThird--As a general rule, let the hand be open, with the fingers slightly\ncurved. It then seems liberal, com municative, and candid; and, in some\ndegree, gives that expression to the style of delivery. Of course there are\npassages which require the clinched hand, the pointed finger, etc., etc.;\nbut these are used to give a particular expression.\nFourth --In the movements of the arm, study variety and the grace of\ncurved lines.\nWhen a gesture is made with one arm only, the eye should be cast in\nthe direction of that arm; not at it, but over it.\nAll speakers employ, more or less",
+            "page": 22,
+            "metadata": {
+              "page": 22,
+              "section": "gesture",
+              "has_no_text": false
+            },
+            "score": 0.5740993022918701
+          },
+          {
+            "chunk_id": "McGuffey_p40_80_p22_para_1",
+            "text": ", the motions of the head. In\nreference to that member, we make but one observation. Avoid the\ncontinuous shaking and bobbing of the head, which is so conspicuous in\nthe action of many ambitious public speakers.\nThe beauty and force of all gesture consist in its timely, judicious, and\nnatural employment, when it can serve to illustrate the meaning or give\nemphasis to the force of an important passage. The usual fault of young\nspeakers is too much action. To emphasize all parts alike, is equivalent to\nno emphasis; and by employing forcible gestures on unimportant\npassages, we diminish our power",
+            "page": 22,
+            "metadata": {
+              "page": 22,
+              "section": "gesture",
+              "has_no_text": false
+            },
+            "score": 0.5596472024917603
+          }
+        ]
+      },
+      {
+        "question_id": "q12",
+        "split": "dev",
+        "hit_@1": true,
+        "hit_@3": true,
+        "hits": [
+          {
+            "chunk_id": "McGuffey_p40_80_p20_para_1",
+            "text": "tion; and it is\nsometimes overcome at once, by a powerful exercise of the attention upon\nthe matter of the speech. When that fills and possesses the mind, the\norator is likely to take the attitude which is becoming, and, at least, easy\nand natural, if not graceful.\n1st. The first general direction that should be given to the speaker is,\nthat he should stand erect and firm , and in that posture which gives an\nexpanded chest and full play to the organs of respiration and utterance.\n2d. Let the attitude be such that it can be shifted easily and gracefully .\nThe student will find, by trial, that n",
+            "page": 20,
+            "metadata": {
+              "page": 20,
+              "section": "gesture",
+              "has_no_text": false
+            },
+            "score": 0.5958272573844955
+          },
+          {
+            "chunk_id": "McGuffey_p40_80_p20_para_2",
+            "text": "o attitude is so favorable to this end\nas that in which the weight of the body is thrown upon one leg, leaving\nthe other free to be advanced or thrown back, as fatigue or the proper\naction of delivery may require.\nThe student who has any regard to grace or elegance, will of course\navoid all the gross faults which are so com mon among public speakers,\nsuch as resting one foot upon a stool or bench, or throwing the body\nforward upon the support of the rostrum.\n3d. Next to attitude, come the movements of the person and limbs. In\nthese, two objects are to be observed, and, if possible, combined, v",
+            "page": 20,
+            "metadata": {
+              "page": 20,
+              "section": "gesture",
+              "has_no_text": false
+            },
+            "score": 0.5679022669792175
+          },
+          {
+            "chunk_id": "McGuffey_p40_80_p22_para_1",
+            "text": ", the motions of the head. In\nreference to that member, we make but one observation. Avoid the\ncontinuous shaking and bobbing of the head, which is so conspicuous in\nthe action of many ambitious public speakers.\nThe beauty and force of all gesture consist in its timely, judicious, and\nnatural employment, when it can serve to illustrate the meaning or give\nemphasis to the force of an important passage. The usual fault of young\nspeakers is too much action. To emphasize all parts alike, is equivalent to\nno emphasis; and by employing forcible gestures on unimportant\npassages, we diminish our power",
+            "page": 22,
+            "metadata": {
+              "page": 22,
+              "section": "gesture",
+              "has_no_text": false
+            },
+            "score": 0.5315130352973938
+          }
+        ]
+      },
+      {
+        "question_id": "q13",
+        "split": "dev",
+        "hit_@1": true,
+        "hit_@3": true,
+        "hits": [
+          {
+            "chunk_id": "McGuffey_p40_80_p23_para_0",
+            "text": "58 ECLECTIC SERIES.\n\"Words,\" says one, referring to articulation, should \"be delivered out\nfrom the lips, as beautiful coins, newly issued from the mint; deeply and\naccurately impressed, perfectly finished; neatly struck by the proper\norgans, distinct, in due succession, and of due weight.\" How rarely do we\nhear a speaker whose tongue, teeth, and lips, do their office so perfectly\nas to answer to this beautiful description! And the common faults in\narticulation, it should be remembered, take their rise from the very\nnursery.\nGrace in eloquence, in the pulpit, at the bar, can not be separated f",
+            "page": 23,
+            "metadata": {
+              "page": 23,
+              "section": "gesture",
+              "has_no_text": false
+            },
+            "score": 0.6066586248089565
+          },
+          {
+            "chunk_id": "McGuffey_p40_80_p22_para_0",
+            "text": "SIXTH READER. 57\nThird--As a general rule, let the hand be open, with the fingers slightly\ncurved. It then seems liberal, com municative, and candid; and, in some\ndegree, gives that expression to the style of delivery. Of course there are\npassages which require the clinched hand, the pointed finger, etc., etc.;\nbut these are used to give a particular expression.\nFourth --In the movements of the arm, study variety and the grace of\ncurved lines.\nWhen a gesture is made with one arm only, the eye should be cast in\nthe direction of that arm; not at it, but over it.\nAll speakers employ, more or less",
+            "page": 22,
+            "metadata": {
+              "page": 22,
+              "section": "gesture",
+              "has_no_text": false
+            },
+            "score": 0.4725205898284912
+          },
+          {
+            "chunk_id": "McGuffey_p40_80_p14_para_3",
+            "text": "stinguished\nfrom the \"high tone,\" which is an elevation of pitch , and from \"loudness.\"\nor \"strength\" of voice.\nIt will be observed that clearness and distinctness of utterance are\nsecured by a proper use of the subvocals and aspirates--these sounds\ngiving to words their shape , as it were; but a clear, full, and well-\nmodulated utterance of the vocals gives to words their fullness.\nLONG QUANTITY.\n1. Liberty! Freedom! Tyranny is dead!\n2. Woe, woe, to the inhabitants of Jerusalem!\n6.-4.",
+            "page": 14,
+            "metadata": {
+              "page": 14,
+              "section": "voice",
+              "has_no_text": false
+            },
+            "score": 0.4541979702829113
+          }
+        ]
+      },
+      {
+        "question_id": "q14",
+        "split": "dev",
+        "hit_@1": true,
+        "hit_@3": true,
+        "hits": [
+          {
+            "chunk_id": "McGuffey_p40_80_p24_para_0",
+            "text": "SIXTH READER. 59\nIt is better that a girl should return from school a first -rate reader, than\na first-rate performer on the pianoforte. The accomplishment, in its\nperfection, would give more pleasure. The voice of song is not sweeter\nthan the voice of eloquence; and there may be eloquent readers , as well\nas eloquent speakers . We speak of perfection in this art: and it is\nsomething, we must say in defense of our preference, which we have\nnever yet seen. Let the same pains be devoted to reading, as are required\nto form an accom plished performer on an instrument; let us have, as the\nancients ",
+            "page": 24,
+            "metadata": {
+              "page": 24,
+              "section": "gesture",
+              "has_no_text": false
+            },
+            "score": 0.6137388531487841
+          },
+          {
+            "chunk_id": "McGuffey_p40_80_p24_para_1",
+            "text": "had, the formers of the voice, the music masters of the reading\nvoice; let us see years devoted to this accomplishment, and then we\nshould be prepared to stand the comparison.\nReading is indeed, a most intellectual accomplishment. So is music,\ntoo, in its perfection. We do by no means undervalue this noble and most\ndelightful art, to which Socrates applied himself even in his old age. But\none recommendation of the art of reading is, that it requires a constant\nexercise of mind. It involves, in its perfection, the whole art of criticism\non language. A man may possess a fine genius without being",
+            "page": 24,
+            "metadata": {
+              "page": 24,
+              "section": "gesture",
+              "has_no_text": false
+            },
+            "score": 0.42803075909614563
+          },
+          {
+            "chunk_id": "McGuffey_p40_80_p33_para_0",
+            "text": "SIXTH READER. 67\nII. THE NEEDLE.\nThe gay belles of fashion may boast of excelling\nIn waltz or cotillon, at whist or quadrille;\nAnd seek admiration by vauntingly telling\nOf drawing, and painting, and musical skill:\nBut give me the fair one, in country or city,\nWhose home and its duties are dear to her heart,\nWho cheerfully warbles some rustical ditty,\nWhile plying the needle with exquisite art:\nThe bright little needle, the swift-flying needle,\nThe needle directed by beauty and art.\nIf Love have a potent, a magical token,\nA talisman, ever resistless and true,\nA charm that is never evaded or bro",
+            "page": 33,
+            "metadata": {
+              "page": 33,
+              "section": "selection",
+              "has_no_text": false
+            },
+            "score": 0.3737686276435852
+          }
+        ]
+      },
+      {
+        "question_id": "q15",
+        "split": "dev",
+        "hit_@1": true,
+        "hit_@3": true,
+        "hits": [
+          {
+            "chunk_id": "McGuffey_p40_80_p28_para_0",
+            "text": "MCGUFFEY'S\nSIXTH READER.\nSELECTIONS FOR READING.\nI. ANECDOTE OF THE DUKE OF NEWCASTLE.\nA laughable story was circulated during the admin istration of the old\nDuke of Newcastle, and retailed to the public in various forms. This\nnobleman, with many good points, was remarkable for being profuse of\nhis promises on all occasions, and valued himself particularly on being\nable to anticipate the words or the wants of the va rious persons who\nattended his levees, before they uttered a word. This sometimes led him\ninto ridiculous embarrass ment; and it was this proneness to lavish\npromises, which gave o",
+            "page": 28,
+            "metadata": {
+              "page": 28,
+              "section": "selection",
+              "has_no_text": false
+            },
+            "score": 0.6530117380331547
+          },
+          {
+            "chunk_id": "McGuffey_p40_80_p32_para_1",
+            "text": "nance of his friend from Cornwall, making\nlow bows, with hat in hand, and \"hoping my lord would not forget the\ngracious promise he was so good as to make, in favor of his son-in-law, at\nthe last election.\"\nVexed at so untimely a disturbance, and disappointed of news from\nSpain, the Duke frowned for a moment; but chagrin soon gave way to\nmirth, at so singular and ridicu lous a combination of circumstances, and,\nyielding to the impulse, he sunk upon the bed in a violent fit of laughter,\nwhich was communicated in a moment to the attendants.\nThe relater of this little narrative, concludes, with ob",
+            "page": 32,
+            "metadata": {
+              "page": 32,
+              "section": "selection",
+              "has_no_text": false
+            },
+            "score": 0.45974828182901306
+          },
+          {
+            "chunk_id": "McGuffey_p40_80_p32_para_2",
+            "text": " serving,\n\"Although the Duke of Newcastle could not place the relative of his old\nacquaintance on the throne of His Catholic Majesty, he advanced him to a\npost not less honor able --he made him an exciseman.\"\n--Blackwood's Magazine.\nNotes.-- Duke of Newcastle .--Thomas Holles Pelham (b. 1693, d.\n1768), one of the chief ministers of state in the reign of George II. of\nEngland.\nCornwall .--A county forming the extreme southwestern part of\nEngland.\nKing of Spain .--Ferdinand VI. was then the king of Spain. He died in\n1759.\nHis Catholic Majesty , a title applied to the kings of Spain; first given\n",
+            "page": 32,
+            "metadata": {
+              "page": 32,
+              "section": "selection",
+              "has_no_text": false
+            },
+            "score": 0.43356895946993834
+          }
+        ]
+      },
+      {
+        "question_id": "q16",
+        "split": "test",
+        "hit_@1": true,
+        "hit_@3": true,
+        "hits": [
+          {
+            "chunk_id": "McGuffey_p40_80_p33_para_0",
+            "text": "SIXTH READER. 67\nII. THE NEEDLE.\nThe gay belles of fashion may boast of excelling\nIn waltz or cotillon, at whist or quadrille;\nAnd seek admiration by vauntingly telling\nOf drawing, and painting, and musical skill:\nBut give me the fair one, in country or city,\nWhose home and its duties are dear to her heart,\nWho cheerfully warbles some rustical ditty,\nWhile plying the needle with exquisite art:\nThe bright little needle, the swift-flying needle,\nThe needle directed by beauty and art.\nIf Love have a potent, a magical token,\nA talisman, ever resistless and true,\nA charm that is never evaded or bro",
+            "page": 33,
+            "metadata": {
+              "page": 33,
+              "section": "selection",
+              "has_no_text": false
+            },
+            "score": 0.7089012861251831
+          },
+          {
+            "chunk_id": "McGuffey_p40_80_p33_para_2",
+            "text": "g the task with a song or a fable,\nAnd plying the needle with exquisite art:\nThe bright little needle, the swift-flying needle,\nThe needle directed by beauty and art.\n--Samuel Woodworth.",
+            "page": 33,
+            "metadata": {
+              "page": 33,
+              "section": "selection",
+              "has_no_text": false
+            },
+            "score": 0.6735735736362214
+          },
+          {
+            "chunk_id": "McGuffey_p40_80_p33_para_1",
+            "text": "ken,\nA witchery certain the heart to subdue,\n'T is this; and his armory never has furnished\nSo keen and unerring, or polished a dart;\nLet beauty direct it, so polished and burnished,\nAnd oh! it is certain of touching the heart:\nThe bright little needle, the swift-flying needle,\nThe needle directed by beauty and art.\nBe wise, then, ye maidens, nor seek admiration,\nBy dressing for conquest, and flirting with all;\nYou never, whate'er be your fortune or station,\nAppear half so lovely at rout or at ball,\nAs gayly convened at the work-covered table,\nEach cheerfully active, playing her part,\nBeguilin",
+            "page": 33,
+            "metadata": {
+              "page": 33,
+              "section": "selection",
+              "has_no_text": false
+            },
+            "score": 0.5541222095489502
+          }
+        ]
+      },
+      {
+        "question_id": "q17",
+        "split": "test",
+        "hit_@1": true,
+        "hit_@3": true,
+        "hits": [
+          {
+            "chunk_id": "McGuffey_p40_80_p34_para_0",
+            "text": "68 ECLECTIC SERIES.\nIII. DAWN.\nEdward Everett , 1794-1865. He was born at Dorchester, Mass., now a\npart of Boston, and graduated from Harvard College with the highest honors\nof his class, at the age of seventeen. While yet in college, he had quite a\nreputation as a brilliant writer. Before he was twenty years of age, he was\nsettled as pastor over the Brattle Street Church, in Boston, and at once\nbecame famous as an eloquent preacher. In 1814, he was elected Professor of\nGreek Literature in his Alma Mater ; and, in order to prepare himself for the\nduties of his office, he entered on an extended",
+            "page": 34,
+            "metadata": {
+              "page": 34,
+              "section": "selection",
+              "has_no_text": false
+            },
+            "score": 0.6701527634217538
+          },
+          {
+            "chunk_id": "McGuffey_p40_80_p34_para_1",
+            "text": " course of travel in Europe. He\nedited the \"North American Review,\" in addition to the labors of his\nprofessorship, after he returned to America.\nIn 1825, Mr. Everett was elected to Congress, and held his seat in the\nHouse for ten years. He was Governor of his native state from 1835 to 1839.\nIn 1841, he was appointed Minister to England. On his return, in 1846, he\nwas chosen President of Harvard University, and held the office for three\nyears. In 1852, he was appointed Secretary of State. February 22, 1856, he\ndelivered, in Boston, his celebrated lecture on Washington. This lecture was\nafterwa",
+            "page": 34,
+            "metadata": {
+              "page": 34,
+              "section": "selection",
+              "has_no_text": false
+            },
+            "score": 0.5184782588935438
+          },
+          {
+            "chunk_id": "McGuffey_p40_80_p4_para_2",
+            "text": "ed than in prose.",
+            "page": 4,
+            "metadata": {
+              "page": 4,
+              "section": "emphasis_verse",
+              "has_no_text": false
+            },
+            "score": 0.24561394045228568
+          }
+        ]
+      },
+      {
+        "question_id": "q18",
+        "split": "test",
+        "hit_@1": true,
+        "hit_@3": true,
+        "hits": [
+          {
+            "chunk_id": "McGuffey_p40_80_p37_para_0",
+            "text": "SIXTH READER. 71\nof the wind, sought safety and found destruction; some of the largest trees\nwere torn up by the roots; the sluices of the mountains were filled, and\ninnumerable torrents rushed down the before empty gullies. The heavens\nnow open, and the lightning and thunder contend with the horrors of the\nwind.\nIn a moment, all was again hushed. Dead silence suc ceeded the bellow\nof the thunder, the roar of the wind, the rush of the waters, the moaning of\nthe beasts, the screaming of the birds. Nothing was heard save the plash\nof the agitated lake, as it beat up against the black rocks which",
+            "page": 37,
+            "metadata": {
+              "page": 37,
+              "section": "selection",
+              "has_no_text": false
+            },
+            "score": 0.6369973041416833
+          },
+          {
+            "chunk_id": "McGuffey_p40_80_p37_para_1",
+            "text": " girt it in.\nAgain, greater darkness enveloped the trembling earth. Anon, the\nheavens were rent with lightning, which nothing could have quenched but\nthe descending deluge. Cataracts poured down from the lowering\nfirmament. For an instant, the horses dashed madly forward; beast and\nrider blinded and stifled by the gushing rain, and gasping for breath.\nShelter was nowhere. The quivering beasts reared, and snorted, and sank\nupon their knees, dismounting their riders.\nHe had scarcely spoken, when there burst forth a ter rific noise, they\nknew not what; a rush, they could not understand; a vibrati",
+            "page": 37,
+            "metadata": {
+              "page": 37,
+              "section": "selection",
+              "has_no_text": false
+            },
+            "score": 0.3535196308517041
+          },
+          {
+            "chunk_id": "McGuffey_p40_80_p15_para_2",
+            "text": "h in heaven,\nWhere the wide storms their banners fling,\nAnd the tempest clouds are driven.\n3. At midnight, in his guarded tent,\nThe Turk lay dreaming of the hour\nWhen Greece, her knee in suppliance bent,\nShould tremble at his power.\n4. On New Year's night, an old man stood at his window, and looked,\nwith a glance of fearful despair, up the immov able, unfading heaven, and\ndown upon the still, pure, white earth, on which no one was now so\njoyless and sleepless as he.",
+            "page": 15,
+            "metadata": {
+              "page": 15,
+              "section": "voice",
+              "has_no_text": false
+            },
+            "score": 0.3307052254676819
+          }
+        ]
+      },
+      {
+        "question_id": "q19",
+        "split": "test",
+        "hit_@1": false,
+        "hit_@3": true,
+        "hits": [
+          {
+            "chunk_id": "McGuffey_p40_80_p37_para_0",
+            "text": "SIXTH READER. 71\nof the wind, sought safety and found destruction; some of the largest trees\nwere torn up by the roots; the sluices of the mountains were filled, and\ninnumerable torrents rushed down the before empty gullies. The heavens\nnow open, and the lightning and thunder contend with the horrors of the\nwind.\nIn a moment, all was again hushed. Dead silence suc ceeded the bellow\nof the thunder, the roar of the wind, the rush of the waters, the moaning of\nthe beasts, the screaming of the birds. Nothing was heard save the plash\nof the agitated lake, as it beat up against the black rocks which",
+            "page": 37,
+            "metadata": {
+              "page": 37,
+              "section": "selection",
+              "has_no_text": false
+            },
+            "score": 0.5295671978463946
+          },
+          {
+            "chunk_id": "McGuffey_p40_80_p38_para_0",
+            "text": "72 ECLECTIC SERIES.\nV. AFTER THE THUNDERSTORM.\nJames Thomson , 1700-1748, the son of a clergyman, was born in\nScotland. He studied at the University of Edinburgh, and intended to\nfollow the profession of his father, but never entered upon the duties of\nthe sacred office. In 1724 he went to London, where he spent most of his\nsubsequent life. He had shown some poetical talent when it boy; and, in\n1826, he published \"Winter,\" a part of a longer poem, en titled \"The\nSeasons,\" the best known of all his works. He also wrote several plays for\nthe stage; none of them, however, achieved any great succe",
+            "page": 38,
+            "metadata": {
+              "page": 38,
+              "section": "selection",
+              "has_no_text": false
+            },
+            "score": 0.4958968302988356
+          },
+          {
+            "chunk_id": "McGuffey_p40_80_p38_para_1",
+            "text": "ss. In the last\nyear of his life, he published his \"Castle of Indolence,\" the most famous\nof his works excepting \"The Seasons.\" Thomson was heavy and dull in\nhis personal appearance, and was indolent in his habits. The moral tone of\nhis writings is always good. This extract is from \"The Seasons.\"\nAs from the face of heaven the shattered clouds\nTumultuous rove, the interminable sky\nSublimer swells, and o'er the world expands\nA purer azure.\nThrough the lightened air\nA higher luster and a clearer calm,\nDiffusive, tremble; while, as if in sign\nOf danger past, a glittering robe of joy,\nSet off abun",
+            "page": 38,
+            "metadata": {
+              "page": 38,
+              "section": "selection",
+              "has_no_text": false
+            },
+            "score": 0.47389040653918035
+          }
+        ]
+      },
+      {
+        "question_id": "q20",
+        "split": "test",
+        "hit_@1": false,
+        "hit_@3": true,
+        "hits": [
+          {
+            "chunk_id": "McGuffey_p40_80_p41_para_1",
+            "text": "ight, and not answerable for the consequences. And so the poor\ngentleman was doubly non- suited; for he lost both his suit of clothes and\nhis suit at law.\nThese smearings and scratchings, these washings and dashings, being\nduly performed, the next ceremonial is to cleanse and replace the\ndistracted furniture. You may have seen a house raising, or a ship launch-\n-recollect, if you can, the hurry, bustle, confusion, and noise of such a\nscene, and you will have some idea of this cleans ing match. The\nmisfortune is, that the sole object is to make things clean. It matters not\nhow many useful, or n",
+            "page": 41,
+            "metadata": {
+              "page": 41,
+              "section": "selection",
+              "has_no_text": false
+            },
+            "score": 0.39388678019226764
+          },
+          {
+            "chunk_id": "McGuffey_p40_80_p39_para_1",
+            "text": "an\nindependence. His \"Essay on White washing,\" from which the following\nextract is taken, was mistaken for the composition of Dr. Franklin, and\npublished among his writings, It was originally in the form of \"A Letter\nfrom a Gentleman in America to his Friend in Europe, on Whitewashing.\"\nThere is no season of the year in which the lady may not, if she\npleases, claim her privilege; but the latter end of May is generally fixed\nupon for the purpose. The at tentive husband may judge , by certain\nprognostics, when the storm is at hand. If the lady grows uncommonly\nfretful, finds fault with the serva",
+            "page": 39,
+            "metadata": {
+              "page": 39,
+              "section": "selection",
+              "has_no_text": false
+            },
+            "score": 0.39085305901924383
+          },
+          {
+            "chunk_id": "McGuffey_p40_80_p39_para_0",
+            "text": "SIXTH READER. 73\nVI. HOUSE CLEANING.\nFrancis Hopkinson , 1737-1791. He was the son of an Englishman;\nborn in Philadelphia, and was educated at the college of that city, now the\nUniversity of Pennsylvania. He represented New Jersey in the Congress\nof 1776, and was one of the signers of the Declaration of Independence.\nHe was one of the most sensible and elegant writers of his time, and\ndistinguished himself both in prose and verse. His lighter writings abound\nin humor and keen satire; his more solid writings are marked by clearness\nand good sense. His pen did much to forward the cause of Americ",
+            "page": 39,
+            "metadata": {
+              "page": 39,
+              "section": "selection",
+              "has_no_text": false
+            },
+            "score": 0.3354267777884119
+          }
+        ]
+      }
+    ]
+  },
+  "strategy_C_filtered": {
+    "summary": {
+      "total_queries": 20,
+      "overall": {
+        "n": 20,
+        "hit_1": "17/20",
+        "hit_3": "20/20",
+        "hit_1_rate": 0.85,
+        "hit_3_rate": 1.0
+      },
+      "by_split": {
+        "dev": {
+          "n": 15,
+          "hit_1": "14/15",
+          "hit_3": "15/15",
+          "hit_1_rate": 0.9333333333333333,
+          "hit_3_rate": 1.0
+        },
+        "test": {
+          "n": 5,
+          "hit_1": "3/5",
+          "hit_3": "5/5",
+          "hit_1_rate": 0.6,
+          "hit_3_rate": 1.0
+        }
+      },
+      "hit_1_rate": 0.85,
+      "hit_3_rate": 1.0
+    },
+    "traces": [
+      {
+        "question_id": "q01",
+        "split": "dev",
+        "hit_@1": false,
+        "hit_@3": true,
+        "hits": [
+          {
+            "chunk_id": "McGuffey_p40_80_p3_para_0",
+            "text": "38 ECLECTIC SERIES.\n3. If content can not remove' the disquietudes of life, it will, at least,\nalleviate them.\n4. The sweetest melody and the most perfect harmony fall powerless\nupon the ear of one who is deaf ' ,\n5. It is useless to expatiate upon the beauties of nature to one who is\nblind' ,\n6. And they that have believing masters, let them not despise them,\nbecause they are brethren' ; but rather let them do them service.\nEMPHATIC PHRASE.\nWhen it is desired to give to a phrase great force of expression, each\nword, and even the parts of a compound word, are independently\nemphasized.\nEXAMPLES",
+            "page": 3,
+            "metadata": {
+              "page": 3,
+              "section": "emphasis_verse",
+              "has_no_text": false
+            },
+            "score": 0.43059518933296514
+          },
+          {
+            "chunk_id": "McGuffey_p40_80_p14_para_1",
+            "text": "tity at each\nrepetition, until you can dwell upon it any desired length of time, without\ndrawling, and in a natural tone.\nREMARK.--Practice in accordance with this direction will enable the\npupil to secure that fullness and roundness of voice which is exemplified\nin the hailing of a ship, \"ship aho--y;\" in the reply of the sailor, when, in\nthe roar of the storm, he answers his captain, \"ay--e. ay--e;\" and in the\ncommand of the officer to his troops, when, amid the thunder of artillery,\nhe gives the order, \"ma--rch,\" or \"ha--lt.\"\nThis fullness or roundness of tone is secured, by dwelling on the",
+            "page": 14,
+            "metadata": {
+              "page": 14,
+              "section": "voice",
+              "has_no_text": false
+            },
+            "score": 0.4299949663874494
+          },
+          {
+            "chunk_id": "McGuffey_p40_80_p2_para_0",
+            "text": "SIXTH READER. 37\nEMPHASIS AND ACCENT.\nWhen words, which are the same in part of their for mation, are\ncontrasted, the emphasis is expressed by ac centi ng the syllables in which\nthey differ. See Accent, page 33.\nEXAMPLES.\n1. What is the difference between pro bability and poss ibility?\n2. Learn to un learn what you have learned amiss.\n3. John attends reg ularly. William, irregularly.\n4. There is a great difference between giv ing and for giving.\n5. The conduct of Antoninus was characterized by justice\nand humanity; that of Nero, by injustice and inhumanity.\n6. The conduct of the former is dese",
+            "page": 2,
+            "metadata": {
+              "page": 2,
+              "section": "emphasis_verse",
+              "has_no_text": false
+            },
+            "score": 0.4244217276573211
+          }
+        ]
+      },
+      {
+        "question_id": "q02",
+        "split": "dev",
+        "hit_@1": true,
+        "hit_@3": true,
+        "hits": [
+          {
+            "chunk_id": "McGuffey_p40_80_p4_para_0",
+            "text": "SIXTH READER. 39\nEMPHATIC PAUSE.\nA short pause is often made before or after, and some times both befo re\nand after, an emphatic word or phrase,--thus very much increasing the\nemphatic expression of the thought.\nEXAMPLES.\n1. May one be pardoned, and retain --the offense?\nIn the corrupted currents of this world,\nOffense's gilded hand may shove by-- justice ;\nAnd oft 'tis seen, the wicked prize itself\nBuys out the law: but 't is not so-- above :\nThere--is no shuffling: there --the action lies\nIn its true nature.\n2. He woke to hear his sentries shriek,\n\"To arms! they come! the Greek! the Greek!\nH",
+            "page": 4,
+            "metadata": {
+              "page": 4,
+              "section": "emphasis_verse",
+              "has_no_text": false
+            },
+            "score": 0.6758479081346964
+          },
+          {
+            "chunk_id": "McGuffey_p40_80_p8_para_1",
+            "text": "the end of each line, even where the\nsense does not require it.\nThere is, also, in almost every line of poetry, a pause at or near its\nmiddle, which is called the caesura .\nThis should, however, never be so placed as to injure the sense of the\npassage. It is indeed reckoned a great beauty, where it naturally coincides\nwith the pause re quired by the sense. The caesura, though generally\nplaced near the middle, may be placed at other intervals.\nThere are sometimes, also, two additional pauses in each line, called\ndemi-caesuras.\nThe caesura is marked (||), and the demi-caesura thus, (|), in the\ne",
+            "page": 8,
+            "metadata": {
+              "page": 8,
+              "section": "emphasis_verse",
+              "has_no_text": false
+            },
+            "score": 0.497921139125757
+          },
+          {
+            "chunk_id": "McGuffey_p40_80_p14_para_1",
+            "text": "tity at each\nrepetition, until you can dwell upon it any desired length of time, without\ndrawling, and in a natural tone.\nREMARK.--Practice in accordance with this direction will enable the\npupil to secure that fullness and roundness of voice which is exemplified\nin the hailing of a ship, \"ship aho--y;\" in the reply of the sailor, when, in\nthe roar of the storm, he answers his captain, \"ay--e. ay--e;\" and in the\ncommand of the officer to his troops, when, amid the thunder of artillery,\nhe gives the order, \"ma--rch,\" or \"ha--lt.\"\nThis fullness or roundness of tone is secured, by dwelling on the",
+            "page": 14,
+            "metadata": {
+              "page": 14,
+              "section": "voice",
+              "has_no_text": false
+            },
+            "score": 0.4237743020057678
+          }
+        ]
+      },
+      {
+        "question_id": "q03",
+        "split": "dev",
+        "hit_@1": true,
+        "hit_@3": true,
+        "hits": [
+          {
+            "chunk_id": "McGuffey_p40_80_p4_para_1",
+            "text": "e woke--to die--midst flame and smoke.\"\n3. This--is no flattery : These --are counselors\nThat feelingly persuade me what I am.\n4. And this--our life, exempt from public haunt,\nFinds tongues --in tree, books --in the running brooks ,\nSermons --in stones , and-- good in everything .\n5. Heaven gave this Lyre, and thus decreed,\nBe thou a bruised --but not a broken --reed.\nIV. INSTRUCTIONS FOR READING VERSE.\nINFLECTIONS.\nIn reading verse, the inflections should be nearly the same as in reading\nprose; the chief difference is, that in poetry, the monotone and rising\ninflection are more fre quently us",
+            "page": 4,
+            "metadata": {
+              "page": 4,
+              "section": "emphasis_verse",
+              "has_no_text": false
+            },
+            "score": 0.6667682925829826
+          },
+          {
+            "chunk_id": "McGuffey_p40_80_p6_para_0",
+            "text": "SIXTH READER. 41\n4. Large was his bounty', and his soul sincere',\nHeaven did a recompense as largely send';\nHe gave to misery (all he had) a tear',\nHe gained from heaven' ('t was all he wished') a friend'.\n5. No further seek his merits to disclose',\nOr draw his frailties from their dread abode';\n(There they alike' in trembling hope repose',)\nThe bosom of his Father, and his God'.\nACCENT AND EMPHASIS.\nIn reading verse, every syllable must have the same accent, and every\nword the same emphasis as in prose; and whenever the melody or music\nof the verse would lead to an incorrect accent or emphasi",
+            "page": 6,
+            "metadata": {
+              "page": 6,
+              "section": "emphasis_verse",
+              "has_no_text": false
+            },
+            "score": 0.5552983018933715
+          },
+          {
+            "chunk_id": "McGuffey_p40_80_p7_para_0",
+            "text": "42 ECLECTIC SERIES.\nmarked in italics . According to the principle stated above, the reader\nshould avoid giving them that pronunciation which the correct rending of\nthe poetry would require, but should read them as prose, except where he\ncan throw off all accent and thus compromise the conflict between the\npoetic reading and the correct reading. That is, he must read the poetry\nwrong , in order to read the language right .\nEXAMPLES.\n1. Ask of thy mother earth why oaks are made\nTaller and stronger than the weeds they shade.\n2. Their praise is still, \"the style is excel lent ,\"\nThe sense they hu",
+            "page": 7,
+            "metadata": {
+              "page": 7,
+              "section": "emphasis_verse",
+              "has_no_text": false
+            },
+            "score": 0.5113061818869766
+          }
+        ]
+      },
+      {
+        "question_id": "q04",
+        "split": "dev",
+        "hit_@1": true,
+        "hit_@3": true,
+        "hits": [
+          {
+            "chunk_id": "McGuffey_p40_80_p11_para_0",
+            "text": "46 ECLECTIC SERIES.\nV. THE VOICE.\nPITCH AND COMPASS.\nThe natural pitch of the voice is its keynote, or governing note. It is\nthat on which the voice usually dwells, and to which it most frequently\nreturns when wearied. It is also the pitch used in conversation, and the\none which a reader or speaker naturally adopts--when he reads or speaks--\nmost easily and agreeably.\nThe compass of the voice is its range above and below this pitch. To\navoid monotony in reading or speaking, the voice should rise above or fall\nbelow this keynote, but always with reference to the sense or character of\nthat which",
+            "page": 11,
+            "metadata": {
+              "page": 11,
+              "section": "voice",
+              "has_no_text": false
+            },
+            "score": 0.6853049209895695
+          },
+          {
+            "chunk_id": "McGuffey_p40_80_p11_para_1",
+            "text": " is read or spoken. The proper natural pitch is that above and\nbelow which there is most room for variation.\nTo strengthen the voice and increase its compass, select a short\nsentence, repeat it several times in succession in as low a key as the voice\ncan sound naturally; then rise one note higher, and practice on that key,\nthen another, and so on, until the highest pitch of the voice has been\nreached. Next, reverse the process, until the lowest pitch has been\nreached.\nEXAMPLES IN PITCH\nHigh Pitch.\nNOTE.--Be careful to distinguish pitch from power in the following\nexercise. Speaking in the open",
+            "page": 11,
+            "metadata": {
+              "page": 11,
+              "section": "voice",
+              "has_no_text": false
+            },
+            "score": 0.6672137975692749
+          },
+          {
+            "chunk_id": "McGuffey_p40_80_p14_para_2",
+            "text": " vocal\nsound , and indefinitely protracting it, The mouth should be opened wide,\nthe tongue kept down, and the aperture left as round and as free for the\nvoice as possible.\nIt is this artificial rotundity which, in connection with a distinct\narticulation, enables one who speaks in the open air, or in a very large\napartment, to send his voice to the most distant point. It is a certain degree\nof this quality, which distinguishes declamatory or public speaking or\nreading from private conversation, and no one can accomplish much, as a\npublic speaker, without cultivating it. It must be carefully di",
+            "page": 14,
+            "metadata": {
+              "page": 14,
+              "section": "voice",
+              "has_no_text": false
+            },
+            "score": 0.5312106609344482
+          }
+        ]
+      },
+      {
+        "question_id": "q05",
+        "split": "dev",
+        "hit_@1": true,
+        "hit_@3": true,
+        "hits": [
+          {
+            "chunk_id": "McGuffey_p40_80_p11_para_0",
+            "text": "46 ECLECTIC SERIES.\nV. THE VOICE.\nPITCH AND COMPASS.\nThe natural pitch of the voice is its keynote, or governing note. It is\nthat on which the voice usually dwells, and to which it most frequently\nreturns when wearied. It is also the pitch used in conversation, and the\none which a reader or speaker naturally adopts--when he reads or speaks--\nmost easily and agreeably.\nThe compass of the voice is its range above and below this pitch. To\navoid monotony in reading or speaking, the voice should rise above or fall\nbelow this keynote, but always with reference to the sense or character of\nthat which",
+            "page": 11,
+            "metadata": {
+              "page": 11,
+              "section": "voice",
+              "has_no_text": false
+            },
+            "score": 0.6492326244025791
+          },
+          {
+            "chunk_id": "McGuffey_p40_80_p11_para_1",
+            "text": " is read or spoken. The proper natural pitch is that above and\nbelow which there is most room for variation.\nTo strengthen the voice and increase its compass, select a short\nsentence, repeat it several times in succession in as low a key as the voice\ncan sound naturally; then rise one note higher, and practice on that key,\nthen another, and so on, until the highest pitch of the voice has been\nreached. Next, reverse the process, until the lowest pitch has been\nreached.\nEXAMPLES IN PITCH\nHigh Pitch.\nNOTE.--Be careful to distinguish pitch from power in the following\nexercise. Speaking in the open",
+            "page": 11,
+            "metadata": {
+              "page": 11,
+              "section": "voice",
+              "has_no_text": false
+            },
+            "score": 0.531356588940519
+          },
+          {
+            "chunk_id": "McGuffey_p40_80_p12_para_0",
+            "text": "SIXTH READER. 47\n4. Run'! run'! run for your lives!\n5. Fire'! fire'! fire'! Ring the bell'!\n6. Gentlemen may cry peace'! peace'! but there is no peace!\n7. Rouse' ye Romans! rouse' ye slaves'!\nHave ye brave sons'? Look in the next fierce brawl\nTo see them die'. Have ye fair daughters'? Look\nTo see them live, torn from your arms', distained',\nDishonored', and if ye dare call for justice',\nBe answered by the lash'!\nMedium Pitch.\nNOTE.--This is the pitch in which we converse. To strengthen it, we\nshould read or speak in it as loud as possible, without rising to a higher\nkey. To do this requires lo",
+            "page": 12,
+            "metadata": {
+              "page": 12,
+              "section": "voice",
+              "has_no_text": false
+            },
+            "score": 0.4453204737508174
+          }
+        ]
+      },
+      {
+        "question_id": "q06",
+        "split": "dev",
+        "hit_@1": true,
+        "hit_@3": true,
+        "hits": [
+          {
+            "chunk_id": "McGuffey_p40_80_p11_para_1",
+            "text": " is read or spoken. The proper natural pitch is that above and\nbelow which there is most room for variation.\nTo strengthen the voice and increase its compass, select a short\nsentence, repeat it several times in succession in as low a key as the voice\ncan sound naturally; then rise one note higher, and practice on that key,\nthen another, and so on, until the highest pitch of the voice has been\nreached. Next, reverse the process, until the lowest pitch has been\nreached.\nEXAMPLES IN PITCH\nHigh Pitch.\nNOTE.--Be careful to distinguish pitch from power in the following\nexercise. Speaking in the open",
+            "page": 11,
+            "metadata": {
+              "page": 11,
+              "section": "voice",
+              "has_no_text": false
+            },
+            "score": 0.6456898873222054
+          },
+          {
+            "chunk_id": "McGuffey_p40_80_p11_para_0",
+            "text": "46 ECLECTIC SERIES.\nV. THE VOICE.\nPITCH AND COMPASS.\nThe natural pitch of the voice is its keynote, or governing note. It is\nthat on which the voice usually dwells, and to which it most frequently\nreturns when wearied. It is also the pitch used in conversation, and the\none which a reader or speaker naturally adopts--when he reads or speaks--\nmost easily and agreeably.\nThe compass of the voice is its range above and below this pitch. To\navoid monotony in reading or speaking, the voice should rise above or fall\nbelow this keynote, but always with reference to the sense or character of\nthat which",
+            "page": 11,
+            "metadata": {
+              "page": 11,
+              "section": "voice",
+              "has_no_text": false
+            },
+            "score": 0.5855888971335447
+          },
+          {
+            "chunk_id": "McGuffey_p40_80_p16_para_1",
+            "text": "lf under any restraint, nor very solicitously copy his\ndiction, or his mien, however matured by age or modeled by experience.\nMOVEMENT.\nMovement is the rapidity with which the voice moves in reading and\nspeaking. It varies with the nature of the thought or sentiment to be\nexpressed, and should be increased or diminished as good taste may\ndetermine. With pupils generally, the tendency is to read too fast. The\nresult is, reading or speaking in too high a key and an unnatural style of\ndelivery--both of which faults are difficult to be corrected when once\nformed. The kinds of movement are Slow, Mo",
+            "page": 16,
+            "metadata": {
+              "page": 16,
+              "section": "voice",
+              "has_no_text": false
+            },
+            "score": 0.4757847516793343
+          }
+        ]
+      },
+      {
+        "question_id": "q07",
+        "split": "dev",
+        "hit_@1": true,
+        "hit_@3": true,
+        "hits": [
+          {
+            "chunk_id": "McGuffey_p40_80_p14_para_0",
+            "text": "SIXTH READER. 49\nQUANTITY AND QUALITY.\nQuantity , in reading and speaking, means the length of time occupied\nin uttering a syllable or a word. Sounds and syllables vary greatly in\nquantity. Some are long, some short, and others intermediate between\nthose which are long or short. Some sounds, also, may be prolonged or\nshortened in utterance to any desired extent. Quantity may be classified as\nLong, Medium, or Short .\nDIRECTIONS FOR PRACTICE ON LONG QUANTITY.--Select\nsome word of one syllable ending with a long vocal or a subvocal sound;\npronounce it many times in succession, increasing the quan",
+            "page": 14,
+            "metadata": {
+              "page": 14,
+              "section": "voice",
+              "has_no_text": false
+            },
+            "score": 0.73820502205536
+          },
+          {
+            "chunk_id": "McGuffey_p40_80_p16_para_1",
+            "text": "lf under any restraint, nor very solicitously copy his\ndiction, or his mien, however matured by age or modeled by experience.\nMOVEMENT.\nMovement is the rapidity with which the voice moves in reading and\nspeaking. It varies with the nature of the thought or sentiment to be\nexpressed, and should be increased or diminished as good taste may\ndetermine. With pupils generally, the tendency is to read too fast. The\nresult is, reading or speaking in too high a key and an unnatural style of\ndelivery--both of which faults are difficult to be corrected when once\nformed. The kinds of movement are Slow, Mo",
+            "page": 16,
+            "metadata": {
+              "page": 16,
+              "section": "voice",
+              "has_no_text": false
+            },
+            "score": 0.42125855151589386
+          },
+          {
+            "chunk_id": "McGuffey_p40_80_p24_para_1",
+            "text": "had, the formers of the voice, the music masters of the reading\nvoice; let us see years devoted to this accomplishment, and then we\nshould be prepared to stand the comparison.\nReading is indeed, a most intellectual accomplishment. So is music,\ntoo, in its perfection. We do by no means undervalue this noble and most\ndelightful art, to which Socrates applied himself even in his old age. But\none recommendation of the art of reading is, that it requires a constant\nexercise of mind. It involves, in its perfection, the whole art of criticism\non language. A man may possess a fine genius without being",
+            "page": 24,
+            "metadata": {
+              "page": 24,
+              "section": "gesture",
+              "has_no_text": false
+            },
+            "score": 0.4191371923427939
+          }
+        ]
+      },
+      {
+        "question_id": "q08",
+        "split": "dev",
+        "hit_@1": true,
+        "hit_@3": true,
+        "hits": [
+          {
+            "chunk_id": "McGuffey_p40_80_p14_para_0",
+            "text": "SIXTH READER. 49\nQUANTITY AND QUALITY.\nQuantity , in reading and speaking, means the length of time occupied\nin uttering a syllable or a word. Sounds and syllables vary greatly in\nquantity. Some are long, some short, and others intermediate between\nthose which are long or short. Some sounds, also, may be prolonged or\nshortened in utterance to any desired extent. Quantity may be classified as\nLong, Medium, or Short .\nDIRECTIONS FOR PRACTICE ON LONG QUANTITY.--Select\nsome word of one syllable ending with a long vocal or a subvocal sound;\npronounce it many times in succession, increasing the quan",
+            "page": 14,
+            "metadata": {
+              "page": 14,
+              "section": "voice",
+              "has_no_text": false
+            },
+            "score": 0.49772894368940346
+          },
+          {
+            "chunk_id": "McGuffey_p40_80_p9_para_2",
+            "text": "to another object of a different class;\nit is a poetical or imaginative comparison.",
+            "page": 9,
+            "metadata": {
+              "page": 9,
+              "section": "emphasis_verse",
+              "has_no_text": false
+            },
+            "score": 0.32157397270202637
+          },
+          {
+            "chunk_id": "McGuffey_p40_80_p41_para_2",
+            "text": "amental, or valuable articles suffer mutilation or\ndeath under the operation. A mahogany chair and a carved frame undergo\nthe same discipline; they are to be made clean at all events; but their\npreservation is not worthy of attention.\nFor instance: a fine large engraving is laid flat upon the floor; a number\nof smaller prints are piled upon it, until the superincumbent weight cracks\nthe lower glass --but this is of no importance. A valuable picture is placed\nleaning against the sharp corner of a table; others are made to lean against\nthat, till the pressure of the whole forces the corner of th",
+            "page": 41,
+            "metadata": {
+              "page": 41,
+              "section": "selection",
+              "has_no_text": false
+            },
+            "score": 0.24440784719037145
+          }
+        ]
+      },
+      {
+        "question_id": "q09",
+        "split": "dev",
+        "hit_@1": true,
+        "hit_@3": true,
+        "hits": [
+          {
+            "chunk_id": "McGuffey_p40_80_p16_para_1",
+            "text": "lf under any restraint, nor very solicitously copy his\ndiction, or his mien, however matured by age or modeled by experience.\nMOVEMENT.\nMovement is the rapidity with which the voice moves in reading and\nspeaking. It varies with the nature of the thought or sentiment to be\nexpressed, and should be increased or diminished as good taste may\ndetermine. With pupils generally, the tendency is to read too fast. The\nresult is, reading or speaking in too high a key and an unnatural style of\ndelivery--both of which faults are difficult to be corrected when once\nformed. The kinds of movement are Slow, Mo",
+            "page": 16,
+            "metadata": {
+              "page": 16,
+              "section": "voice",
+              "has_no_text": false
+            },
+            "score": 0.6683876116044765
+          },
+          {
+            "chunk_id": "McGuffey_p40_80_p20_para_0",
+            "text": "SIXTH READER. 55\nVI. GESTURE.\nGesture is that part of the speaker's manner which per tai ns to his\nattitude, to the use and carriage of his person, and the movement of his\nlimbs in delivery.\nEvery person, in beginning to speak, feels the natural embarrassment\nresulting from his new position. The nov elty of the situation destroys his\nself-possession, and, with the loss of that, he becomes awkward, his arms\nand hands hang clumsily, and now, for the first time, seem to him worse\nthan superfluous members. This embarrassment will be overcome\ngradually, as the speaker becomes familiar with his posi",
+            "page": 20,
+            "metadata": {
+              "page": 20,
+              "section": "gesture",
+              "has_no_text": false
+            },
+            "score": 0.5255797474885288
+          },
+          {
+            "chunk_id": "McGuffey_p40_80_p22_para_1",
+            "text": ", the motions of the head. In\nreference to that member, we make but one observation. Avoid the\ncontinuous shaking and bobbing of the head, which is so conspicuous in\nthe action of many ambitious public speakers.\nThe beauty and force of all gesture consist in its timely, judicious, and\nnatural employment, when it can serve to illustrate the meaning or give\nemphasis to the force of an important passage. The usual fault of young\nspeakers is too much action. To emphasize all parts alike, is equivalent to\nno emphasis; and by employing forcible gestures on unimportant\npassages, we diminish our power",
+            "page": 22,
+            "metadata": {
+              "page": 22,
+              "section": "gesture",
+              "has_no_text": false
+            },
+            "score": 0.4970979990304718
+          }
+        ]
+      },
+      {
+        "question_id": "q10",
+        "split": "dev",
+        "hit_@1": true,
+        "hit_@3": true,
+        "hits": [
+          {
+            "chunk_id": "McGuffey_p40_80_p16_para_1",
+            "text": "lf under any restraint, nor very solicitously copy his\ndiction, or his mien, however matured by age or modeled by experience.\nMOVEMENT.\nMovement is the rapidity with which the voice moves in reading and\nspeaking. It varies with the nature of the thought or sentiment to be\nexpressed, and should be increased or diminished as good taste may\ndetermine. With pupils generally, the tendency is to read too fast. The\nresult is, reading or speaking in too high a key and an unnatural style of\ndelivery--both of which faults are difficult to be corrected when once\nformed. The kinds of movement are Slow, Mo",
+            "page": 16,
+            "metadata": {
+              "page": 16,
+              "section": "voice",
+              "has_no_text": false
+            },
+            "score": 0.5865342370590123
+          },
+          {
+            "chunk_id": "McGuffey_p40_80_p16_para_2",
+            "text": "derate , and Quick .\nDIRECTIONS.--Read a selection as slowly us possible, without\ndrawling. Read it again and again, increasing the rate of movement\nat each reading, until it can be",
+            "page": 16,
+            "metadata": {
+              "page": 16,
+              "section": "voice",
+              "has_no_text": false
+            },
+            "score": 0.4542227197488595
+          },
+          {
+            "chunk_id": "McGuffey_p40_80_p17_para_0",
+            "text": "52 ECLECTIC SERIES.\nread no faster without the utterance becoming indistinct. Reverse this\nprocess, reading more and more slowly at each repetition, until the\nslowest movement is obtained.\nSLOW MOVEMENT.\n1. Oh that those lips had language! Life has passed\nWith me but roughly, since I heard them last.\n2. A tremulous sigh from the gentle night wind\nThrough the forest leaves slowly is creeping,\nWhile stars up above, with their glittering eyes,\nKeep guard; for the army is sleeping.\n3. O Lord'! have mercy upon us, miserable offenders'!\n4. So live, that when thy summons comes to join\nThe innumerable",
+            "page": 17,
+            "metadata": {
+              "page": 17,
+              "section": "voice",
+              "has_no_text": false
+            },
+            "score": 0.41080703799766605
+          }
+        ]
+      },
+      {
+        "question_id": "q11",
+        "split": "dev",
+        "hit_@1": true,
+        "hit_@3": true,
+        "hits": [
+          {
+            "chunk_id": "McGuffey_p40_80_p20_para_0",
+            "text": "SIXTH READER. 55\nVI. GESTURE.\nGesture is that part of the speaker's manner which per tai ns to his\nattitude, to the use and carriage of his person, and the movement of his\nlimbs in delivery.\nEvery person, in beginning to speak, feels the natural embarrassment\nresulting from his new position. The nov elty of the situation destroys his\nself-possession, and, with the loss of that, he becomes awkward, his arms\nand hands hang clumsily, and now, for the first time, seem to him worse\nthan superfluous members. This embarrassment will be overcome\ngradually, as the speaker becomes familiar with his posi",
+            "page": 20,
+            "metadata": {
+              "page": 20,
+              "section": "gesture",
+              "has_no_text": false
+            },
+            "score": 0.809849333176058
+          },
+          {
+            "chunk_id": "McGuffey_p40_80_p22_para_0",
+            "text": "SIXTH READER. 57\nThird--As a general rule, let the hand be open, with the fingers slightly\ncurved. It then seems liberal, com municative, and candid; and, in some\ndegree, gives that expression to the style of delivery. Of course there are\npassages which require the clinched hand, the pointed finger, etc., etc.;\nbut these are used to give a particular expression.\nFourth --In the movements of the arm, study variety and the grace of\ncurved lines.\nWhen a gesture is made with one arm only, the eye should be cast in\nthe direction of that arm; not at it, but over it.\nAll speakers employ, more or less",
+            "page": 22,
+            "metadata": {
+              "page": 22,
+              "section": "gesture",
+              "has_no_text": false
+            },
+            "score": 0.5740993022918701
+          },
+          {
+            "chunk_id": "McGuffey_p40_80_p22_para_1",
+            "text": ", the motions of the head. In\nreference to that member, we make but one observation. Avoid the\ncontinuous shaking and bobbing of the head, which is so conspicuous in\nthe action of many ambitious public speakers.\nThe beauty and force of all gesture consist in its timely, judicious, and\nnatural employment, when it can serve to illustrate the meaning or give\nemphasis to the force of an important passage. The usual fault of young\nspeakers is too much action. To emphasize all parts alike, is equivalent to\nno emphasis; and by employing forcible gestures on unimportant\npassages, we diminish our power",
+            "page": 22,
+            "metadata": {
+              "page": 22,
+              "section": "gesture",
+              "has_no_text": false
+            },
+            "score": 0.5596472024917603
+          }
+        ]
+      },
+      {
+        "question_id": "q12",
+        "split": "dev",
+        "hit_@1": true,
+        "hit_@3": true,
+        "hits": [
+          {
+            "chunk_id": "McGuffey_p40_80_p20_para_1",
+            "text": "tion; and it is\nsometimes overcome at once, by a powerful exercise of the attention upon\nthe matter of the speech. When that fills and possesses the mind, the\norator is likely to take the attitude which is becoming, and, at least, easy\nand natural, if not graceful.\n1st. The first general direction that should be given to the speaker is,\nthat he should stand erect and firm , and in that posture which gives an\nexpanded chest and full play to the organs of respiration and utterance.\n2d. Let the attitude be such that it can be shifted easily and gracefully .\nThe student will find, by trial, that n",
+            "page": 20,
+            "metadata": {
+              "page": 20,
+              "section": "gesture",
+              "has_no_text": false
+            },
+            "score": 0.5958272573844955
+          },
+          {
+            "chunk_id": "McGuffey_p40_80_p20_para_2",
+            "text": "o attitude is so favorable to this end\nas that in which the weight of the body is thrown upon one leg, leaving\nthe other free to be advanced or thrown back, as fatigue or the proper\naction of delivery may require.\nThe student who has any regard to grace or elegance, will of course\navoid all the gross faults which are so com mon among public speakers,\nsuch as resting one foot upon a stool or bench, or throwing the body\nforward upon the support of the rostrum.\n3d. Next to attitude, come the movements of the person and limbs. In\nthese, two objects are to be observed, and, if possible, combined, v",
+            "page": 20,
+            "metadata": {
+              "page": 20,
+              "section": "gesture",
+              "has_no_text": false
+            },
+            "score": 0.5679022669792175
+          },
+          {
+            "chunk_id": "McGuffey_p40_80_p22_para_1",
+            "text": ", the motions of the head. In\nreference to that member, we make but one observation. Avoid the\ncontinuous shaking and bobbing of the head, which is so conspicuous in\nthe action of many ambitious public speakers.\nThe beauty and force of all gesture consist in its timely, judicious, and\nnatural employment, when it can serve to illustrate the meaning or give\nemphasis to the force of an important passage. The usual fault of young\nspeakers is too much action. To emphasize all parts alike, is equivalent to\nno emphasis; and by employing forcible gestures on unimportant\npassages, we diminish our power",
+            "page": 22,
+            "metadata": {
+              "page": 22,
+              "section": "gesture",
+              "has_no_text": false
+            },
+            "score": 0.5315130352973938
+          }
+        ]
+      },
+      {
+        "question_id": "q13",
+        "split": "dev",
+        "hit_@1": true,
+        "hit_@3": true,
+        "hits": [
+          {
+            "chunk_id": "McGuffey_p40_80_p23_para_0",
+            "text": "58 ECLECTIC SERIES.\n\"Words,\" says one, referring to articulation, should \"be delivered out\nfrom the lips, as beautiful coins, newly issued from the mint; deeply and\naccurately impressed, perfectly finished; neatly struck by the proper\norgans, distinct, in due succession, and of due weight.\" How rarely do we\nhear a speaker whose tongue, teeth, and lips, do their office so perfectly\nas to answer to this beautiful description! And the common faults in\narticulation, it should be remembered, take their rise from the very\nnursery.\nGrace in eloquence, in the pulpit, at the bar, can not be separated f",
+            "page": 23,
+            "metadata": {
+              "page": 23,
+              "section": "gesture",
+              "has_no_text": false
+            },
+            "score": 0.6066586248089565
+          },
+          {
+            "chunk_id": "McGuffey_p40_80_p22_para_0",
+            "text": "SIXTH READER. 57\nThird--As a general rule, let the hand be open, with the fingers slightly\ncurved. It then seems liberal, com municative, and candid; and, in some\ndegree, gives that expression to the style of delivery. Of course there are\npassages which require the clinched hand, the pointed finger, etc., etc.;\nbut these are used to give a particular expression.\nFourth --In the movements of the arm, study variety and the grace of\ncurved lines.\nWhen a gesture is made with one arm only, the eye should be cast in\nthe direction of that arm; not at it, but over it.\nAll speakers employ, more or less",
+            "page": 22,
+            "metadata": {
+              "page": 22,
+              "section": "gesture",
+              "has_no_text": false
+            },
+            "score": 0.4725205898284912
+          },
+          {
+            "chunk_id": "McGuffey_p40_80_p14_para_3",
+            "text": "stinguished\nfrom the \"high tone,\" which is an elevation of pitch , and from \"loudness.\"\nor \"strength\" of voice.\nIt will be observed that clearness and distinctness of utterance are\nsecured by a proper use of the subvocals and aspirates--these sounds\ngiving to words their shape , as it were; but a clear, full, and well-\nmodulated utterance of the vocals gives to words their fullness.\nLONG QUANTITY.\n1. Liberty! Freedom! Tyranny is dead!\n2. Woe, woe, to the inhabitants of Jerusalem!\n6.-4.",
+            "page": 14,
+            "metadata": {
+              "page": 14,
+              "section": "voice",
+              "has_no_text": false
+            },
+            "score": 0.4541979702829113
+          }
+        ]
+      },
+      {
+        "question_id": "q14",
+        "split": "dev",
+        "hit_@1": true,
+        "hit_@3": true,
+        "hits": [
+          {
+            "chunk_id": "McGuffey_p40_80_p24_para_0",
+            "text": "SIXTH READER. 59\nIt is better that a girl should return from school a first -rate reader, than\na first-rate performer on the pianoforte. The accomplishment, in its\nperfection, would give more pleasure. The voice of song is not sweeter\nthan the voice of eloquence; and there may be eloquent readers , as well\nas eloquent speakers . We speak of perfection in this art: and it is\nsomething, we must say in defense of our preference, which we have\nnever yet seen. Let the same pains be devoted to reading, as are required\nto form an accom plished performer on an instrument; let us have, as the\nancients ",
+            "page": 24,
+            "metadata": {
+              "page": 24,
+              "section": "gesture",
+              "has_no_text": false
+            },
+            "score": 0.6137388531487841
+          },
+          {
+            "chunk_id": "McGuffey_p40_80_p24_para_1",
+            "text": "had, the formers of the voice, the music masters of the reading\nvoice; let us see years devoted to this accomplishment, and then we\nshould be prepared to stand the comparison.\nReading is indeed, a most intellectual accomplishment. So is music,\ntoo, in its perfection. We do by no means undervalue this noble and most\ndelightful art, to which Socrates applied himself even in his old age. But\none recommendation of the art of reading is, that it requires a constant\nexercise of mind. It involves, in its perfection, the whole art of criticism\non language. A man may possess a fine genius without being",
+            "page": 24,
+            "metadata": {
+              "page": 24,
+              "section": "gesture",
+              "has_no_text": false
+            },
+            "score": 0.42803075909614563
+          },
+          {
+            "chunk_id": "McGuffey_p40_80_p33_para_0",
+            "text": "SIXTH READER. 67\nII. THE NEEDLE.\nThe gay belles of fashion may boast of excelling\nIn waltz or cotillon, at whist or quadrille;\nAnd seek admiration by vauntingly telling\nOf drawing, and painting, and musical skill:\nBut give me the fair one, in country or city,\nWhose home and its duties are dear to her heart,\nWho cheerfully warbles some rustical ditty,\nWhile plying the needle with exquisite art:\nThe bright little needle, the swift-flying needle,\nThe needle directed by beauty and art.\nIf Love have a potent, a magical token,\nA talisman, ever resistless and true,\nA charm that is never evaded or bro",
+            "page": 33,
+            "metadata": {
+              "page": 33,
+              "section": "selection",
+              "has_no_text": false
+            },
+            "score": 0.3737686276435852
+          }
+        ]
+      },
+      {
+        "question_id": "q15",
+        "split": "dev",
+        "hit_@1": true,
+        "hit_@3": true,
+        "hits": [
+          {
+            "chunk_id": "McGuffey_p40_80_p28_para_0",
+            "text": "MCGUFFEY'S\nSIXTH READER.\nSELECTIONS FOR READING.\nI. ANECDOTE OF THE DUKE OF NEWCASTLE.\nA laughable story was circulated during the admin istration of the old\nDuke of Newcastle, and retailed to the public in various forms. This\nnobleman, with many good points, was remarkable for being profuse of\nhis promises on all occasions, and valued himself particularly on being\nable to anticipate the words or the wants of the va rious persons who\nattended his levees, before they uttered a word. This sometimes led him\ninto ridiculous embarrass ment; and it was this proneness to lavish\npromises, which gave o",
+            "page": 28,
+            "metadata": {
+              "page": 28,
+              "section": "selection",
+              "has_no_text": false
+            },
+            "score": 0.6530117380331547
+          },
+          {
+            "chunk_id": "McGuffey_p40_80_p32_para_1",
+            "text": "nance of his friend from Cornwall, making\nlow bows, with hat in hand, and \"hoping my lord would not forget the\ngracious promise he was so good as to make, in favor of his son-in-law, at\nthe last election.\"\nVexed at so untimely a disturbance, and disappointed of news from\nSpain, the Duke frowned for a moment; but chagrin soon gave way to\nmirth, at so singular and ridicu lous a combination of circumstances, and,\nyielding to the impulse, he sunk upon the bed in a violent fit of laughter,\nwhich was communicated in a moment to the attendants.\nThe relater of this little narrative, concludes, with ob",
+            "page": 32,
+            "metadata": {
+              "page": 32,
+              "section": "selection",
+              "has_no_text": false
+            },
+            "score": 0.45974828182901306
+          },
+          {
+            "chunk_id": "McGuffey_p40_80_p32_para_2",
+            "text": " serving,\n\"Although the Duke of Newcastle could not place the relative of his old\nacquaintance on the throne of His Catholic Majesty, he advanced him to a\npost not less honor able --he made him an exciseman.\"\n--Blackwood's Magazine.\nNotes.-- Duke of Newcastle .--Thomas Holles Pelham (b. 1693, d.\n1768), one of the chief ministers of state in the reign of George II. of\nEngland.\nCornwall .--A county forming the extreme southwestern part of\nEngland.\nKing of Spain .--Ferdinand VI. was then the king of Spain. He died in\n1759.\nHis Catholic Majesty , a title applied to the kings of Spain; first given\n",
+            "page": 32,
+            "metadata": {
+              "page": 32,
+              "section": "selection",
+              "has_no_text": false
+            },
+            "score": 0.43356895946993834
+          }
+        ]
+      },
+      {
+        "question_id": "q16",
+        "split": "test",
+        "hit_@1": true,
+        "hit_@3": true,
+        "hits": [
+          {
+            "chunk_id": "McGuffey_p40_80_p33_para_0",
+            "text": "SIXTH READER. 67\nII. THE NEEDLE.\nThe gay belles of fashion may boast of excelling\nIn waltz or cotillon, at whist or quadrille;\nAnd seek admiration by vauntingly telling\nOf drawing, and painting, and musical skill:\nBut give me the fair one, in country or city,\nWhose home and its duties are dear to her heart,\nWho cheerfully warbles some rustical ditty,\nWhile plying the needle with exquisite art:\nThe bright little needle, the swift-flying needle,\nThe needle directed by beauty and art.\nIf Love have a potent, a magical token,\nA talisman, ever resistless and true,\nA charm that is never evaded or bro",
+            "page": 33,
+            "metadata": {
+              "page": 33,
+              "section": "selection",
+              "has_no_text": false
+            },
+            "score": 0.7089012861251831
+          },
+          {
+            "chunk_id": "McGuffey_p40_80_p33_para_2",
+            "text": "g the task with a song or a fable,\nAnd plying the needle with exquisite art:\nThe bright little needle, the swift-flying needle,\nThe needle directed by beauty and art.\n--Samuel Woodworth.",
+            "page": 33,
+            "metadata": {
+              "page": 33,
+              "section": "selection",
+              "has_no_text": false
+            },
+            "score": 0.6735735736362214
+          },
+          {
+            "chunk_id": "McGuffey_p40_80_p33_para_1",
+            "text": "ken,\nA witchery certain the heart to subdue,\n'T is this; and his armory never has furnished\nSo keen and unerring, or polished a dart;\nLet beauty direct it, so polished and burnished,\nAnd oh! it is certain of touching the heart:\nThe bright little needle, the swift-flying needle,\nThe needle directed by beauty and art.\nBe wise, then, ye maidens, nor seek admiration,\nBy dressing for conquest, and flirting with all;\nYou never, whate'er be your fortune or station,\nAppear half so lovely at rout or at ball,\nAs gayly convened at the work-covered table,\nEach cheerfully active, playing her part,\nBeguilin",
+            "page": 33,
+            "metadata": {
+              "page": 33,
+              "section": "selection",
+              "has_no_text": false
+            },
+            "score": 0.5541222095489502
+          }
+        ]
+      },
+      {
+        "question_id": "q17",
+        "split": "test",
+        "hit_@1": true,
+        "hit_@3": true,
+        "hits": [
+          {
+            "chunk_id": "McGuffey_p40_80_p34_para_0",
+            "text": "68 ECLECTIC SERIES.\nIII. DAWN.\nEdward Everett , 1794-1865. He was born at Dorchester, Mass., now a\npart of Boston, and graduated from Harvard College with the highest honors\nof his class, at the age of seventeen. While yet in college, he had quite a\nreputation as a brilliant writer. Before he was twenty years of age, he was\nsettled as pastor over the Brattle Street Church, in Boston, and at once\nbecame famous as an eloquent preacher. In 1814, he was elected Professor of\nGreek Literature in his Alma Mater ; and, in order to prepare himself for the\nduties of his office, he entered on an extended",
+            "page": 34,
+            "metadata": {
+              "page": 34,
+              "section": "selection",
+              "has_no_text": false
+            },
+            "score": 0.6701527634217538
+          },
+          {
+            "chunk_id": "McGuffey_p40_80_p34_para_1",
+            "text": " course of travel in Europe. He\nedited the \"North American Review,\" in addition to the labors of his\nprofessorship, after he returned to America.\nIn 1825, Mr. Everett was elected to Congress, and held his seat in the\nHouse for ten years. He was Governor of his native state from 1835 to 1839.\nIn 1841, he was appointed Minister to England. On his return, in 1846, he\nwas chosen President of Harvard University, and held the office for three\nyears. In 1852, he was appointed Secretary of State. February 22, 1856, he\ndelivered, in Boston, his celebrated lecture on Washington. This lecture was\nafterwa",
+            "page": 34,
+            "metadata": {
+              "page": 34,
+              "section": "selection",
+              "has_no_text": false
+            },
+            "score": 0.5184782588935438
+          },
+          {
+            "chunk_id": "McGuffey_p40_80_p39_para_0",
+            "text": "SIXTH READER. 73\nVI. HOUSE CLEANING.\nFrancis Hopkinson , 1737-1791. He was the son of an Englishman;\nborn in Philadelphia, and was educated at the college of that city, now the\nUniversity of Pennsylvania. He represented New Jersey in the Congress\nof 1776, and was one of the signers of the Declaration of Independence.\nHe was one of the most sensible and elegant writers of his time, and\ndistinguished himself both in prose and verse. His lighter writings abound\nin humor and keen satire; his more solid writings are marked by clearness\nand good sense. His pen did much to forward the cause of Americ",
+            "page": 39,
+            "metadata": {
+              "page": 39,
+              "section": "selection",
+              "has_no_text": false
+            },
+            "score": 0.23702932110516206
+          }
+        ]
+      },
+      {
+        "question_id": "q18",
+        "split": "test",
+        "hit_@1": true,
+        "hit_@3": true,
+        "hits": [
+          {
+            "chunk_id": "McGuffey_p40_80_p37_para_0",
+            "text": "SIXTH READER. 71\nof the wind, sought safety and found destruction; some of the largest trees\nwere torn up by the roots; the sluices of the mountains were filled, and\ninnumerable torrents rushed down the before empty gullies. The heavens\nnow open, and the lightning and thunder contend with the horrors of the\nwind.\nIn a moment, all was again hushed. Dead silence suc ceeded the bellow\nof the thunder, the roar of the wind, the rush of the waters, the moaning of\nthe beasts, the screaming of the birds. Nothing was heard save the plash\nof the agitated lake, as it beat up against the black rocks which",
+            "page": 37,
+            "metadata": {
+              "page": 37,
+              "section": "selection",
+              "has_no_text": false
+            },
+            "score": 0.6369973041416833
+          },
+          {
+            "chunk_id": "McGuffey_p40_80_p37_para_1",
+            "text": " girt it in.\nAgain, greater darkness enveloped the trembling earth. Anon, the\nheavens were rent with lightning, which nothing could have quenched but\nthe descending deluge. Cataracts poured down from the lowering\nfirmament. For an instant, the horses dashed madly forward; beast and\nrider blinded and stifled by the gushing rain, and gasping for breath.\nShelter was nowhere. The quivering beasts reared, and snorted, and sank\nupon their knees, dismounting their riders.\nHe had scarcely spoken, when there burst forth a ter rific noise, they\nknew not what; a rush, they could not understand; a vibrati",
+            "page": 37,
+            "metadata": {
+              "page": 37,
+              "section": "selection",
+              "has_no_text": false
+            },
+            "score": 0.3535196308517041
+          },
+          {
+            "chunk_id": "McGuffey_p40_80_p15_para_2",
+            "text": "h in heaven,\nWhere the wide storms their banners fling,\nAnd the tempest clouds are driven.\n3. At midnight, in his guarded tent,\nThe Turk lay dreaming of the hour\nWhen Greece, her knee in suppliance bent,\nShould tremble at his power.\n4. On New Year's night, an old man stood at his window, and looked,\nwith a glance of fearful despair, up the immov able, unfading heaven, and\ndown upon the still, pure, white earth, on which no one was now so\njoyless and sleepless as he.",
+            "page": 15,
+            "metadata": {
+              "page": 15,
+              "section": "voice",
+              "has_no_text": false
+            },
+            "score": 0.3307052254676819
+          }
+        ]
+      },
+      {
+        "question_id": "q19",
+        "split": "test",
+        "hit_@1": false,
+        "hit_@3": true,
+        "hits": [
+          {
+            "chunk_id": "McGuffey_p40_80_p37_para_0",
+            "text": "SIXTH READER. 71\nof the wind, sought safety and found destruction; some of the largest trees\nwere torn up by the roots; the sluices of the mountains were filled, and\ninnumerable torrents rushed down the before empty gullies. The heavens\nnow open, and the lightning and thunder contend with the horrors of the\nwind.\nIn a moment, all was again hushed. Dead silence suc ceeded the bellow\nof the thunder, the roar of the wind, the rush of the waters, the moaning of\nthe beasts, the screaming of the birds. Nothing was heard save the plash\nof the agitated lake, as it beat up against the black rocks which",
+            "page": 37,
+            "metadata": {
+              "page": 37,
+              "section": "selection",
+              "has_no_text": false
+            },
+            "score": 0.5295671978463946
+          },
+          {
+            "chunk_id": "McGuffey_p40_80_p38_para_0",
+            "text": "72 ECLECTIC SERIES.\nV. AFTER THE THUNDERSTORM.\nJames Thomson , 1700-1748, the son of a clergyman, was born in\nScotland. He studied at the University of Edinburgh, and intended to\nfollow the profession of his father, but never entered upon the duties of\nthe sacred office. In 1724 he went to London, where he spent most of his\nsubsequent life. He had shown some poetical talent when it boy; and, in\n1826, he published \"Winter,\" a part of a longer poem, en titled \"The\nSeasons,\" the best known of all his works. He also wrote several plays for\nthe stage; none of them, however, achieved any great succe",
+            "page": 38,
+            "metadata": {
+              "page": 38,
+              "section": "selection",
+              "has_no_text": false
+            },
+            "score": 0.4958968302988356
+          },
+          {
+            "chunk_id": "McGuffey_p40_80_p38_para_1",
+            "text": "ss. In the last\nyear of his life, he published his \"Castle of Indolence,\" the most famous\nof his works excepting \"The Seasons.\" Thomson was heavy and dull in\nhis personal appearance, and was indolent in his habits. The moral tone of\nhis writings is always good. This extract is from \"The Seasons.\"\nAs from the face of heaven the shattered clouds\nTumultuous rove, the interminable sky\nSublimer swells, and o'er the world expands\nA purer azure.\nThrough the lightened air\nA higher luster and a clearer calm,\nDiffusive, tremble; while, as if in sign\nOf danger past, a glittering robe of joy,\nSet off abun",
+            "page": 38,
+            "metadata": {
+              "page": 38,
+              "section": "selection",
+              "has_no_text": false
+            },
+            "score": 0.47389040653918035
+          }
+        ]
+      },
+      {
+        "question_id": "q20",
+        "split": "test",
+        "hit_@1": false,
+        "hit_@3": true,
+        "hits": [
+          {
+            "chunk_id": "McGuffey_p40_80_p41_para_1",
+            "text": "ight, and not answerable for the consequences. And so the poor\ngentleman was doubly non- suited; for he lost both his suit of clothes and\nhis suit at law.\nThese smearings and scratchings, these washings and dashings, being\nduly performed, the next ceremonial is to cleanse and replace the\ndistracted furniture. You may have seen a house raising, or a ship launch-\n-recollect, if you can, the hurry, bustle, confusion, and noise of such a\nscene, and you will have some idea of this cleans ing match. The\nmisfortune is, that the sole object is to make things clean. It matters not\nhow many useful, or n",
+            "page": 41,
+            "metadata": {
+              "page": 41,
+              "section": "selection",
+              "has_no_text": false
+            },
+            "score": 0.39388678019226764
+          },
+          {
+            "chunk_id": "McGuffey_p40_80_p39_para_1",
+            "text": "an\nindependence. His \"Essay on White washing,\" from which the following\nextract is taken, was mistaken for the composition of Dr. Franklin, and\npublished among his writings, It was originally in the form of \"A Letter\nfrom a Gentleman in America to his Friend in Europe, on Whitewashing.\"\nThere is no season of the year in which the lady may not, if she\npleases, claim her privilege; but the latter end of May is generally fixed\nupon for the purpose. The at tentive husband may judge , by certain\nprognostics, when the storm is at hand. If the lady grows uncommonly\nfretful, finds fault with the serva",
+            "page": 39,
+            "metadata": {
+              "page": 39,
+              "section": "selection",
+              "has_no_text": false
+            },
+            "score": 0.39085305901924383
+          },
+          {
+            "chunk_id": "McGuffey_p40_80_p39_para_0",
+            "text": "SIXTH READER. 73\nVI. HOUSE CLEANING.\nFrancis Hopkinson , 1737-1791. He was the son of an Englishman;\nborn in Philadelphia, and was educated at the college of that city, now the\nUniversity of Pennsylvania. He represented New Jersey in the Congress\nof 1776, and was one of the signers of the Declaration of Independence.\nHe was one of the most sensible and elegant writers of his time, and\ndistinguished himself both in prose and verse. His lighter writings abound\nin humor and keen satire; his more solid writings are marked by clearness\nand good sense. His pen did much to forward the cause of Americ",
+            "page": 39,
+            "metadata": {
+              "page": 39,
+              "section": "selection",
+              "has_no_text": false
+            },
+            "score": 0.3354267777884119
+          }
+        ]
+      }
+    ]
+  }
+}
